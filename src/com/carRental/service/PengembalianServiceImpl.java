@@ -1,6 +1,7 @@
 package com.carRental.service;
 
 import com.carRental.model.Pengembalian;
+import com.carRental.model.Sewa;
 import com.dika.database.DatabaseServiceImpl;
 import java.util.Date;
 import java.util.List;
@@ -13,6 +14,14 @@ public class PengembalianServiceImpl extends DatabaseServiceImpl<Integer, Pengem
     @Override
     protected Class<Pengembalian> getEntityKClass() {
         return Pengembalian.class;
+    }
+
+    @Override
+    public Pengembalian findBy(Sewa sewa) {
+        return findByNamedQuery("Pengembalian.findBySewa", parameters -> {
+            parameters.put("sewa", sewa.getId());
+            return parameters;
+        });
     }
 
     @Override

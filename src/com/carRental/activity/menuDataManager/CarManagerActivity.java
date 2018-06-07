@@ -7,12 +7,13 @@ import com.carRental.activity.menuDataManager.car.UpdateCarActivity;
 import com.carRental.model.Car;
 import com.carRental.report.CarReport;
 import com.carRental.service.CarServiceImpl;
-import com.carRental.view.model.CarTableModel;
+import com.carRental.activity.tableModel.CarTableModel;
 import com.dika.activity.Activity;
 import com.dika.activity.service.OnResumedAction;
 import com.dika.activity.service.OnStartedAction;
 import com.dika.view.component.Button;
 import com.dika.view.component.Frame;
+import com.dika.view.component.Table;
 import com.dika.view.custom.PagingTableView;
 import com.dika.view.custom.PagingTableViewAction;
 import com.dika.view.custom.PagingTableViewService;
@@ -72,7 +73,10 @@ public final class CarManagerActivity extends Activity<CarManagerView> implement
 
     @Override
     protected void initListener(CarManagerView carManagerView) {
-        tableModel = new CarTableModel(getPagingTableView().getTable());
+        Table table = getPagingTableView().getTable();
+        
+        table.setEditable(false);
+        tableModel = new CarTableModel(table);
         pagingTableViewAction = new PagingTableViewAction(this, getPagingTableView(), 50);
 
         getAddNewCarButton().addActionListener(e -> startOther(AddCarActivity.class));

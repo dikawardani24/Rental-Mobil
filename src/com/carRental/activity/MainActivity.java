@@ -61,9 +61,7 @@ public class MainActivity extends InputActivity<MainView>{
 
         view.getMdPelangganMenu().addActionListener(evt -> startOther(PelangganManagerActivity.class));
 
-        view.getMdTransaksiMenu().addActionListener(evt -> {
-            //throw new UnsupportedOperationException();
-        });
+        view.getMdTransaksiMenu().addActionListener(evt -> startOther(TransaksiManagerActivity.class));
 
         view.getAbProgramMenu().addActionListener(evt -> startOther(AppsAboutActivity.class));
 

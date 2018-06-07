@@ -28,7 +28,7 @@ import com.carRental.service.CarServiceImpl;
 import com.carRental.service.PengembalianServiceImpl;
 import com.carRental.service.SewaServiceImpl;
 import com.carRental.util.CarStatus;
-import com.carRental.view.model.PengembalianTableModel;
+import com.carRental.activity.tableModel.PengembalianTableModel;
 import com.dika.Logger;
 import com.dika.activity.Activity;
 import com.dika.util.CalendarHelper;

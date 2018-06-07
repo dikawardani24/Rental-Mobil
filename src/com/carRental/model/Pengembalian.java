@@ -30,6 +30,7 @@ import java.util.Date;
 @Table(name = "pengembalian")
 @XmlRootElement
 @NamedQueries({
+        @NamedQuery(name = "Pengembalian.findBySewa", query = "SELECT p FROM Pengembalian p WHERE p.sewa = :sewa"),
         @NamedQuery(name = "Pengembalian.findBetween", query = "SELECT p FROM Pengembalian p WHERE (p.tglTransaksi BETWEEN :start AND :end)"),
         @NamedQuery(name = "Pengembalian.countBetween", query = "SELECT COUNT(p) FROM Pengembalian p WHERE (p.tglTransaksi BETWEEN :start AND :end)")
 

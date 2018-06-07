@@ -22,12 +22,13 @@ import com.carRental.activity.menuDataManager.pelanggan.UpdatePelangganActivity;
 import com.carRental.model.Pelanggan;
 import com.carRental.report.PelangganReport;
 import com.carRental.service.PelangganServiceImpl;
-import com.carRental.view.model.PelangganTableModel;
+import com.carRental.activity.tableModel.PelangganTableModel;
 import com.dika.activity.Activity;
 import com.dika.activity.service.OnResumedAction;
 import com.dika.activity.service.OnStartedAction;
 import com.dika.view.component.Button;
 import com.dika.view.component.Frame;
+import com.dika.view.component.Table;
 import com.dika.view.custom.PagingTableView;
 import com.dika.view.custom.PagingTableViewAction;
 import com.dika.view.custom.PagingTableViewService;
@@ -92,7 +93,9 @@ public final class PelangganManagerActivity extends Activity<PelangganManagerVie
 
     @Override
     protected void initListener(PelangganManagerView v) {
-        tableModel = new PelangganTableModel(getPagingTableView().getTable());
+        Table table = getPagingTableView().getTable();
+        table.setEditable(false);
+        tableModel = new PelangganTableModel(table);
         pagingTableViewAction = new PagingTableViewAction(this, getPagingTableView(), 50);
 
         getAddNewPelangganButton().addActionListener(evt -> startOther(AddPelangganActivity.class));

@@ -2,7 +2,6 @@ package com.carRental.activity.main.sewa;
 
 import com.carRental.Session;
 import com.carRental.activity.MainActivity;
-import com.carRental.activity.main.ChooseCarActivity;
 import com.carRental.activity.main.DetailCarActivity;
 import com.carRental.activity.main.MainController;
 import com.carRental.model.Car;
@@ -13,10 +12,7 @@ import com.carRental.service.CarServiceImpl;
 import com.carRental.service.PelangganServiceImpl;
 import com.carRental.service.SewaServiceImpl;
 import com.carRental.util.CarStatus;
-import com.carRental.activity.main.sewa.InputCarContainer;
-import com.carRental.activity.main.sewa.InputPelangganContainer;
-import com.carRental.activity.main.sewa.TagihanContainer;
-import com.carRental.view.model.SewaTableModel;
+import com.carRental.activity.tableModel.SewaTableModel;
 import com.dika.Logger;
 import com.dika.activity.Activity;
 import com.dika.util.CalendarHelper;
@@ -173,8 +169,9 @@ public class SewaController extends MainController
     }
 
     private void findPelanggan() {
+        String noKtp = getNoKtpField().getText();
+        
         chosenPelanggan = execute(new PelangganServiceImpl(), pelangganService -> {
-            String noKtp = getNoKtpField().getText();
             try {
                 return pelangganService.findBy(noKtp);
             } catch (Exception e) {
@@ -188,6 +185,7 @@ public class SewaController extends MainController
             getNoTelpField().setText(chosenPelanggan.getNoHp());
         } else {
             getInputPelangganContainer().clear();
+            showFailed("Tidak Menemukan Pelanggan Dengan No. KTP : "+noKtp);
         }
     }
 

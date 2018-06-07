@@ -21,12 +21,13 @@ import com.carRental.activity.menuDataManager.merk.DeleteMerkActivity;
 import com.carRental.activity.menuDataManager.merk.UpdateMerkActivity;
 import com.carRental.model.Merk;
 import com.carRental.service.MerkServiceImpl;
-import com.carRental.view.model.MerkTableModel;
+import com.carRental.activity.tableModel.MerkTableModel;
 import com.dika.activity.Activity;
 import com.dika.activity.service.OnResumedAction;
 import com.dika.activity.service.OnStartedAction;
 import com.dika.view.component.Button;
 import com.dika.view.component.Frame;
+import com.dika.view.component.Table;
 import com.dika.view.custom.PagingTableView;
 import com.dika.view.custom.PagingTableViewAction;
 import com.dika.view.custom.PagingTableViewService;
@@ -81,7 +82,10 @@ public final class MerkManagerActivity extends Activity<MerkManagerView> impleme
 
     @Override
     protected void initListener(MerkManagerView v) {
-        tableModel = new MerkTableModel(getPagingTableView().getTable());
+        Table table = getPagingTableView().getTable();
+
+        table.setEditable(false);
+        tableModel = new MerkTableModel(table);
         pagingTableViewAction = new PagingTableViewAction(this, getPagingTableView(), 50);
 
         getAddNewMerkButton().addActionListener(e -> startOther(AddMerkActivity.class));

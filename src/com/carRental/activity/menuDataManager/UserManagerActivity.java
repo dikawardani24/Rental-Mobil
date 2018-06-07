@@ -21,12 +21,13 @@ import com.carRental.activity.menuDataManager.user.DeleteUserActivity;
 import com.carRental.model.User;
 import com.carRental.report.UserReport;
 import com.carRental.service.UserServiceImpl;
-import com.carRental.view.model.UserTableModel;
+import com.carRental.activity.tableModel.UserTableModel;
 import com.dika.activity.Activity;
 import com.dika.activity.service.OnResumedAction;
 import com.dika.activity.service.OnStartedAction;
 import com.dika.view.component.Button;
 import com.dika.view.component.Frame;
+import com.dika.view.component.Table;
 import com.dika.view.custom.PagingTableView;
 import com.dika.view.custom.PagingTableViewAction;
 import com.dika.view.custom.PagingTableViewService;
@@ -65,7 +66,9 @@ public final class UserManagerActivity extends Activity<UserManagerView> impleme
 
     @Override
     protected void initListener(UserManagerView userManagerView) {
-        tableModel = new UserTableModel(getPagingTableView().getTable());
+        Table table = getPagingTableView().getTable();
+        table.setEditable(false);
+        tableModel = new UserTableModel(table);
         pagingTableViewAction = new PagingTableViewAction(this, getPagingTableView(), 50);
 
         getAddNewKaryawanButton().addActionListener(evt -> startOther(AddUserActivity.class));

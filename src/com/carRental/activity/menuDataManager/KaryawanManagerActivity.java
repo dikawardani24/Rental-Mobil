@@ -22,12 +22,13 @@ import com.carRental.activity.menuDataManager.karyawan.UpdateKaryawanActivity;
 import com.carRental.model.Karyawan;
 import com.carRental.report.KaryawanReport;
 import com.carRental.service.KaryawanServiceImpl;
-import com.carRental.view.model.KaryawanTableModel;
+import com.carRental.activity.tableModel.KaryawanTableModel;
 import com.dika.activity.Activity;
 import com.dika.activity.service.OnResumedAction;
 import com.dika.activity.service.OnStartedAction;
 import com.dika.view.component.Button;
 import com.dika.view.component.Frame;
+import com.dika.view.component.Table;
 import com.dika.view.custom.PagingTableView;
 import com.dika.view.custom.PagingTableViewAction;
 import com.dika.view.custom.PagingTableViewService;
@@ -98,7 +99,10 @@ public final class KaryawanManagerActivity extends Activity<KaryawanManagerView>
 
     @Override
     protected void initListener(KaryawanManagerView karyawanManagerView) {
-        tableModel = new KaryawanTableModel(getPagingTableView().getTable());
+        Table table = getPagingTableView().getTable();
+
+        table.setEditable(false);
+        tableModel = new KaryawanTableModel(table);
         pagingTableViewAction = new PagingTableViewAction(this, getPagingTableView(), 50);
 
         getAddNewKaryawanButton().addActionListener(evt -> startOther(AddKaryawanActivity.class));
