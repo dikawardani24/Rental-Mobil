@@ -109,4 +109,24 @@ public class DeleteTransaksiViewImpl extends Dialog implements DeleteTransaksiVi
     private com.dika.view.component.Label label2;
     private com.dika.view.component.custom.UnConfirmButton unConfirmButton1;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public Label getIdTransaksiLabel() {
+        return label2;
+    }
+
+    @Override
+    public Button getConfirmedButton() {
+        return confirmButton1;
+    }
+
+    @Override
+    public Button getUnconfirmedButton() {
+        return unConfirmButton1;
+    }
+
+    @Override
+    public Dialog getRoot() {
+        return this;
+    }
 }
