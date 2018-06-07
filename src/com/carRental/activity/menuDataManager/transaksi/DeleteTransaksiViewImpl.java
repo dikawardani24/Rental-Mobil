@@ -15,11 +15,15 @@
  */
 package com.carRental.activity.menuDataManager.transaksi;
 
+import com.dika.view.component.Button;
+import com.dika.view.component.Dialog;
+import com.dika.view.component.Label;
+
 /**
  *
  * @author dika
  */
-public class DeleteTransaksiViewImpl extends javax.swing.JDialog {
+public class DeleteTransaksiViewImpl extends Dialog implements DeleteTransaksiView {
 
     /**
      * Creates new form DeleteTransaksiViewImpl
@@ -43,8 +47,6 @@ public class DeleteTransaksiViewImpl extends javax.swing.JDialog {
         label2 = new com.dika.view.component.Label();
         confirmButton1 = new com.dika.view.component.custom.ConfirmButton();
         unConfirmButton1 = new com.dika.view.component.custom.UnConfirmButton();
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         label1.setText("Yakin Hapus Data Transaksi Sewa Dengan ID :");
