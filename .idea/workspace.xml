@@ -5,173 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d97b2b2b-2411-468c-9e5c-155a820dbfda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/ChooseCarTableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/carRental/report/TransaksiReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Dika_JPA_Starter/jpa_starter_dika.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Dika_JPA_Starter/jpa_starter_dika.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/ChooseCarActivity$OnChosenCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/ChooseCarActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/DetailCarActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/DetailPelangganActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/PengembalianController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/SewaController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/SewaController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/SewaController$CountKembalianThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/SewaController$CountTagihan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/SewaController$CountThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/SewaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuAbout/AppsAboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuAbout/AppsAboutActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuAbout/CompanyAboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuAbout/CompanyAboutActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuAbout/UnivAboutActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuAbout/UnivAboutActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/CarManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/CarManagerActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/KaryawanManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/KaryawanManagerActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/MerkManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/MerkManagerActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/PelangganManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/PelangganManagerActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/UserManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/UserManagerActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/car/AddCarActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/car/AddCarActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/car/DeleteCarActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/car/DeleteCarActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/car/UpdateCarActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/car/UpdateCarActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/AddKaryawanActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/AddKaryawanActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/DeleteKaryawanActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/DeleteKaryawanActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/UpdateKaryawanActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/UpdateKaryawanActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/AddMerkActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/AddMerkActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/DeleteMerkActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/DeleteMerkActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/UpdateMerkActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/UpdateMerkActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/pelanggan/AddPelangganActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/pelanggan/AddPelangganActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/pelanggan/DeletePelangganActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/pelanggan/DeletePelangganActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/pelanggan/UpdatePelangganActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/pelanggan/UpdatePelangganActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/user/AddUserActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/user/AddUserActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/user/DeleteUserActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/user/DeleteUserActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuProgram/ChangePasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuProgram/ChangePasswordActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuProgram/ChangeUsernameActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuProgram/ChangeUsernameActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuProgram/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuProgram/LoginActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/model/Karyawan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/model/Karyawan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/model/Merk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/model/Merk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/model/Pengembalian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/model/Pengembalian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/KaryawanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/KaryawanService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/KaryawanServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/KaryawanServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/MerkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/MerkService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/MerkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/MerkServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/PengembalianService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/PengembalianService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/PengembalianServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/service/PengembalianServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/MainView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/MainViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/DetailCarView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/DetailCarViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/DetailPelangganView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/DetailPelangganViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/PengembalianContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/PengembalianContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/SewaContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/SewaContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/pengembalian/DetailCarContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/pengembalian/DetailCarContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/pengembalian/DetailPelangganContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/pengembalian/DetailPelangganContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/pengembalian/DetailTagihanContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/pengembalian/DetailTagihanContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/ChooseCarView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/ChooseCarViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/InputCarContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/InputCarContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/InputPelangganContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/InputPelangganContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/TagihanContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/main/sewa/TagihanContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuAbout/AppsAboutView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuAbout/CompanyAboutView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuAbout/UnivAboutView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/CarManagerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/CarManagerViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/KaryawanManagerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/KaryawanManagerViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/MerkManagerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/MerkManagerViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/PelangganManagerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/PelangganManagerViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/TransaksiManagerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/TransaksiManagerViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/UserManagerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/UserManagerViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/car/AddCarView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/car/AddCarViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/car/DeleteCarView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/car/DeleteCarViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/car/UpdateCarView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/car/UpdateCarViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/karyawan/AddKaryawanView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/karyawan/AddKaryawanViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/karyawan/DeleteKaryawanView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/karyawan/DeleteKaryawanViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/karyawan/UpdateKaryawanView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/karyawan/UpdateKaryawanViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/merk/AddMerkView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/merk/AddMerkViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/merk/DeleteMerkView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/merk/DeleteMerkViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/merk/UpdateMerkView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/merk/UpdateMerkViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/pelanggan/AddPelangganView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/pelanggan/AddPelangganViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/pelanggan/DeletePelangganView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/pelanggan/DeletePelangganViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/pelanggan/UpdatePelangganView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/pelanggan/UpdatePelangganViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/user/AddUserView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/user/AddUserViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/user/DeleteUserView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuDataManager/user/DeleteUserViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuProgram/ChangePasswordView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuProgram/ChangePasswordViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuProgram/ChangeUsernameView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuProgram/ChangeUsernameViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuProgram/LoginView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/menuProgram/LoginViewImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/model/CarTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/model/KaryawanTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/model/MerkTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/model/PelangganTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/model/PengembalianTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/model/SewaTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/view/model/UserTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/main/ChooseCarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/main/sewa/ChooseCarActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/main/pengembalian/PengembalianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/main/pengembalian/PengembalianController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/main/sewa/ChooseCarViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/main/sewa/ChooseCarViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/main/sewa/ChooseCarViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/main/sewa/ChooseCarViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/main/sewa/SewaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/main/sewa/SewaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/MerkManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/MerkManagerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/MerkManagerViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/MerkManagerViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/MerkManagerViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/MerkManagerViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/PelangganManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/PelangganManagerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/PelangganManagerViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/PelangganManagerViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/PelangganManagerViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/PelangganManagerViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/model/Pengembalian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/model/Pengembalian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/service/PengembalianService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/service/PengembalianService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/service/PengembalianServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/service/PengembalianServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/view/model/CarTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/CarTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/view/model/KaryawanTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/KaryawanTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/view/model/MerkTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/MerkTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/view/model/PelangganTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/PelangganTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/view/model/PengembalianTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/PengembalianTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/view/model/SewaTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/SewaTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/view/model/UserTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/tableModel/UserTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,77 +23,7 @@
     <favorites_list name="Rental Mobil" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TransaksiManagerActivity.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="663">
-                  <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#4426#4427#0" expanded="true" />
-                    <element signature="e#4485#4486#0" expanded="true" />
-                    <element signature="e#5136#5137#0" expanded="true" />
-                    <element signature="e#5180#5181#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TransaksiReport.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/carRental/report/TransaksiReport.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TransaksiTableModel.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CarReport.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/carRental/report/CarReport.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="56" column="61" selection-start-line="46" selection-start-column="8" selection-end-line="56" selection-end-column="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TransaksiTableModel.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -278,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/carRental/view/main/ChoosePelangganView.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/view/main/ChooseCarView.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/view/main/ChooseCarViewImpl.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerActivity.java" />
@@ -327,23 +94,44 @@
         <option value="$PROJECT_DIR$/src/com/carRental/service/PengembalianServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/report/TransaksiReport.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="256" />
-    <option name="y" value="139" />
-    <option name="width" value="811" />
-    <option name="height" value="521" />
+    <option name="x" value="87" />
+    <option name="y" value="56" />
+    <option name="width" value="675" />
+    <option name="height" value="626" />
   </component>
   <component name="ProjectView">
     <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -367,34 +155,15 @@
               <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
               <item name="com.carRental" type="1f31426a:PackageElementNode" />
               <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="tableModel" type="1f31426a:PackageElementNode" />
+              <item name="menuDataManager" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
               <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
               <item name="com.carRental" type="1f31426a:PackageElementNode" />
-              <item name="report" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="1f31426a:PackageElementNode" />
+              <item name="menuDataManager" type="1f31426a:PackageElementNode" />
+              <item name="transaksi" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -428,6 +197,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -541,6 +311,14 @@
       <option name="presentableId" value="Default" />
       <updated>1523779444031</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Transaksi Report">
+      <created>1528395604442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528395604442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -558,7 +336,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60188085" weight="0.19772728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60188085" visible="true" weight="0.19772728" />
       <window_info id="Structure" order="6" sideWeight="0.39811912" side_tool="true" weight="0.2621212" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -581,11 +359,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Transaksi Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Transaksi Report" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/menuDataManager/pelanggan/DeletePelangganViewImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/menuDataManager/pelanggan/UpdatePelangganViewImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/menuDataManager/pelanggan/AddPelangganViewImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/menuDataManager/user/AddUserViewImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/com/carRental/view/menuDataManager/user/DeleteUserViewImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/com/carRental/report/Kwitansi.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,13 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/karyawan/AddKaryawanActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -713,13 +484,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+          <folding>
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -727,13 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -817,27 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4426#4427#0" expanded="true" />
-            <element signature="e#4485#4486#0" expanded="true" />
-            <element signature="e#5136#5137#0" expanded="true" />
-            <element signature="e#5180#5181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/report/CarReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="56" column="61" selection-start-line="46" selection-start-column="8" selection-end-line="56" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -848,13 +588,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/report/CarReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/carRental/report/TransaksiReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="976">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/UserManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/KaryawanManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/karyawan/AddKaryawanActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/karyawan/DeleteKaryawanView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
