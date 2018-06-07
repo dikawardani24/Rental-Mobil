@@ -16,6 +16,7 @@
 package com.carRental.activity.menuDataManager;
 
 import com.alee.laf.menu.WebMenuItem;
+import com.carRental.activity.menuDataManager.transaksi.DeleteTransaksiActivity;
 import com.carRental.activity.tableModel.TransaksiTableModel;
 import com.carRental.model.Sewa;
 import com.carRental.report.TransaksiReport;
@@ -69,7 +70,13 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
     }
 
     private void deleteTransaksi() {
-
+        Sewa sewa = getSewaOnSelectedRow();
+        if (sewa != null) {
+            DeleteTransaksiActivity activity = startOther(DeleteTransaksiActivity.class);
+            activity.setSewa(sewa);
+        } else {
+            showInfo("Tidak Ada Baris Terpilih");
+        }
     }
 
     private void viewDetailPengembalian() {
