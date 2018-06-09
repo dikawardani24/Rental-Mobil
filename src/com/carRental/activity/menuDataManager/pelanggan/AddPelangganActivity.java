@@ -48,6 +48,7 @@ public final class AddPelangganActivity extends InputActivity<AddPelangganView> 
                     if (parent instanceof PelangganManagerActivity) {
                         ((PelangganManagerActivity) parent).refresh();
                     }
+                    clear();
                     return service;
                 });
     }

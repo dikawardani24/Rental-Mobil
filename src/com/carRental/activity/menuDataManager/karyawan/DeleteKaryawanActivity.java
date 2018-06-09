@@ -72,7 +72,7 @@ public final class DeleteKaryawanActivity extends Activity<DeleteKaryawanView> i
             try {
                 karyawanService.destroy(karyawan);
                 Activity<?> parent = getParent();
-                if (parent != null && parent instanceof KaryawanManagerActivity) {
+                if (parent instanceof KaryawanManagerActivity) {
                     ((KaryawanManagerActivity) parent).refresh();
                 }
                 showSucceed("Data Karyawan Berhasil Dihapus");

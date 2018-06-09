@@ -46,6 +46,7 @@ public final class AddMerkActivity extends InputActivity<AddMerkView> implements
             if (parent instanceof MerkManagerActivity) {
                 ((MerkManagerActivity) parent).refresh();
             }
+            clear();
             return merkService;
         });
     }

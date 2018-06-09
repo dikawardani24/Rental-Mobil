@@ -31,7 +31,7 @@ public final class AddUserActivity extends InputActivity<AddUserView> implements
             try {
                 userService.create(user);
                 Activity<?> parent = getParent();
-                if (parent != null && parent instanceof UserManagerActivity) {
+                if (parent instanceof UserManagerActivity) {
                     ((UserManagerActivity) parent).refresh();
                 }
                 clear();

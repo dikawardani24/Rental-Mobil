@@ -60,7 +60,7 @@ public final class UpdateMerkActivity extends InputActivity<UpdateMerkView> impl
                     merkService -> {
                         merkService.update(merk);
                         Activity<?> parent = getParent();
-                        if (parent != null && parent instanceof MerkManagerActivity) {
+                        if (parent instanceof MerkManagerActivity) {
                             ((MerkManagerActivity) parent).refresh();
                         }
                         return merkService;

@@ -78,7 +78,6 @@ public final class UpdateKaryawanActivity extends InputActivity<UpdateKaryawanVi
         } catch (CloneNotSupportedException e) {
             Logger.INSTANCE.printError(e);
         }
-
     }
 
     @Override

@@ -47,7 +47,7 @@ public final class DeleteMerkActivity extends Activity<DeleteMerkView> implement
                 merkService.destroy(merk);
                 Activity<?> parent = getParent();
 
-                if (parent != null && parent instanceof MerkManagerActivity) {
+                if (parent instanceof MerkManagerActivity) {
                     ((MerkManagerActivity) parent).refresh();
                 }
                 stop();
