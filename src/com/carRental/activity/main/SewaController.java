@@ -34,7 +34,7 @@ import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.util.List;
 
-public class SewaController extends MainController 
+public class SewaController extends MainController
         implements SewaContainer, PagingTableViewService {
 
     private final SewaContainer container;
@@ -50,13 +50,9 @@ public class SewaController extends MainController
 
     public void init() {
         getSaveButton().addActionListener(e -> save());
-
         getClearButton().addActionListener(e -> clear());
-
         getChooseCarButton().addActionListener(e -> chooseCar());
-
         getSeeDetailCarButton().addActionListener(e -> viewDetailCar());
-
         getSearchlPelangganButton().addActionListener(e -> findPelanggan());
 
         getLamaSewaField().addFocusListener(new FocusAdapter() {
@@ -109,7 +105,7 @@ public class SewaController extends MainController
             return;
         }
 
-        if (updateStatus(chosenCar)) {
+        if (isStatusUpdatedOf(chosenCar)) {
             Sewa sewa = new Sewa();
             initData(sewa);
             execute(new SewaServiceImpl(), "Data Sewa Berhasil Disimpan", "Data Sewa Gagal Disimpan",
@@ -121,12 +117,12 @@ public class SewaController extends MainController
                         return Unit.INSTANCE;
                     });
         } else {
-            showFailed("Gagal Mengupdate Status Mobil Menjadi "+CarStatus.SEDANG_DISEWA.getText());
+            showFailed("Gagal Mengupdate Status Mobil Menjadi " + CarStatus.SEDANG_DISEWA.getText());
         }
 
     }
 
-    private boolean updateStatus(Car car) {
+    private boolean isStatusUpdatedOf(Car car) {
         return execute(new CarServiceImpl(), carService -> {
             try {
                 car.setStatus(CarStatus.SEDANG_DISEWA.getText());
@@ -159,8 +155,9 @@ public class SewaController extends MainController
             chosenCar = car;
             getNoPlatField().setText(car.getNoPlat());
             getHargaSewaField().setValue(car.getHargaSewa());
-            CountTagihan countTagihan = new CountTagihan();
-            countTagihan.start();
+
+            int lamaSewa = Integer.parseInt(getLamaSewaField().getValue().toString());
+            getTagihanField().setValue(lamaSewa*car.getHargaSewa());
         });
     }
 
@@ -176,7 +173,7 @@ public class SewaController extends MainController
 
     private void findPelanggan() {
         String noKtp = getNoKtpField().getText();
-        
+
         chosenPelanggan = execute(new PelangganServiceImpl(), pelangganService -> {
             try {
                 return pelangganService.findBy(noKtp);
@@ -191,7 +188,7 @@ public class SewaController extends MainController
             getNoTelpField().setText(chosenPelanggan.getNoHp());
         } else {
             getInputPelangganContainer().clear();
-            showFailed("Tidak Menemukan Pelanggan Dengan No. KTP : "+noKtp);
+            showFailed("Tidak Menemukan Pelanggan Dengan No. KTP : " + noKtp);
         }
     }
 
