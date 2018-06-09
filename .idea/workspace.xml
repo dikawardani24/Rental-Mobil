@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d97b2b2b-2411-468c-9e5c-155a820dbfda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanViewImpl.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanViewImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianViewImpl.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianViewImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/karyawan/DeleteKaryawanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/karyawan/DeleteKaryawanActivity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,54 +32,7 @@
     <favorites_list name="Rental Mobil" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DeleteTransaksiView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteTransaksiViewImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteTransaksiActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,14 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/CarManagerActivity.java" />
-        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/com/carRental/model/Pelanggan.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/service/PelangganServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/activity/DetailCarActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/view/MainViewImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/view/MainView.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/karyawan/UpdateKaryawanActivity.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/App.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/view/menuDataManager/karyawan/AddKaryawanViewImpl.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/view/menuDataManager/karyawan/DeleteKaryawanViewImpl.java" />
@@ -139,16 +94,24 @@
         <option value="$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/report/TransaksiReport.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiView.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerView.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianView.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianViewActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanView.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="87" />
-    <option name="y" value="56" />
+    <option name="x" value="384" />
+    <option name="y" value="24" />
     <option name="width" value="675" />
     <option name="height" value="626" />
   </component>
@@ -157,22 +120,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <expand>
             <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
             </path>
             <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
+              <item name="src" type="cbb8eebc:String" user="src" />
             </path>
             <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com/carRental" type="cbb8eebc:String" user="com/carRental" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="META-INF" type="cbb8eebc:String" user="META-INF" />
             </path>
           </expand>
           <select />
@@ -203,41 +173,26 @@
               <item name="activity" type="1f31426a:PackageElementNode" />
               <item name="menuDataManager" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
-              <item name="com.carRental" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="menuDataManager" type="1f31426a:PackageElementNode" />
-              <item name="transaksi" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
+              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
-              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="com/carRental" type="cbb8eebc:String" user="com/carRental" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Rental Mobil" type="cbb8eebc:String" user="Rental Mobil" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="META-INF" type="cbb8eebc:String" user="META-INF" />
+              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,12 +319,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528395604442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Delete Transaksi Activity">
+      <created>1528399625818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528399625818</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Delete Transaksi Activity">
+      <created>1528399852334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528399852334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33184358" />
@@ -379,26 +347,26 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.70062697" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60188085" visible="true" weight="0.19772728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60188085" visible="true" weight="0.1969697" />
       <window_info id="Structure" order="6" sideWeight="0.39811912" side_tool="true" weight="0.2621212" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="7" sideWeight="0.71048516" side_tool="true" weight="0.21439394" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.8231612" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3286385" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.55924696" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.70062697" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
       <window_info anchor="right" id="Kotlin Bytecode" order="8" visible="true" weight="0.32715008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8231612" />
       <window_info id="DB Browser" order="4" sideWeight="0.49837664" weight="0.32954547" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -408,38 +376,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Transaksi Report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Transaksi Report" />
+    <MESSAGE value="Add Delete Transaksi Activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Delete Transaksi Activity" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/report/Kwitansi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/menuDataManager/CarManagerViewImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/DetailCarActivity.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/model/SewaTableModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/model/CarTableModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/view/model/UserTableModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/service/CarService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/DetailPelangganActivity.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/car/DeleteCarActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/SewaController.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/PengembalianController.java" />
     <entry file="file://$PROJECT_DIR$/src/com/carRental/util/CarStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -530,10 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-          <folding>
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -624,16 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -648,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="976">
           <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,16 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,38 +602,205 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiViewImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="653">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/tableModel/TransaksiTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/Dika_JPA_Starter/jpa_starter_dika.jar!/com/dika/view/model/EntityTableModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/service/SewaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/service/SewaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
+          <folding>
+            <element signature="e#10333#10334#0" expanded="true" />
+            <element signature="e#10360#10361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DeleteTransaksiActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="493">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12092#12093#0" expanded="true" />
+            <element signature="e#12119#12120#0" expanded="true" />
+            <element signature="e#12172#12173#0" expanded="true" />
+            <element signature="e#12199#12200#0" expanded="true" />
+            <element signature="e#12254#12255#0" expanded="true" />
+            <element signature="e#12281#12282#0" expanded="true" />
+            <element signature="e#12336#12337#0" expanded="true" />
+            <element signature="e#12363#12364#0" expanded="true" />
+            <element signature="e#12417#12418#0" expanded="true" />
+            <element signature="e#12444#12445#0" expanded="true" />
+            <element signature="e#12498#12499#0" expanded="true" />
+            <element signature="e#12525#12526#0" expanded="true" />
+            <element signature="e#12578#12579#0" expanded="true" />
+            <element signature="e#12605#12606#0" expanded="true" />
+            <element signature="e#12650#12651#0" expanded="true" />
+            <element signature="e#12677#12678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailPengembalianViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10996#10997#0" expanded="true" />
+            <element signature="e#11023#11024#0" expanded="true" />
+            <element signature="e#11082#11083#0" expanded="true" />
+            <element signature="e#11109#11110#0" expanded="true" />
+            <element signature="e#11182#11183#0" expanded="true" />
+            <element signature="e#11209#11210#0" expanded="true" />
+            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#11315#11316#0" expanded="true" />
+            <element signature="e#11393#11394#0" expanded="true" />
+            <element signature="e#11420#11421#0" expanded="true" />
+            <element signature="e#11573#11574#0" expanded="true" />
+            <element signature="e#11600#11601#0" expanded="true" />
+            <element signature="e#11465#11466#0" expanded="true" />
+            <element signature="e#11492#11493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/transaksi/DetailKaryawanActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/TransaksiManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2523">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="e#5158#5159#0" expanded="true" />
+            <element signature="e#5213#5214#0" expanded="true" />
           </folding>
         </state>
       </provider>

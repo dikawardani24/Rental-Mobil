@@ -31,9 +31,9 @@ public interface TransaksiManagerView extends View<Frame> {
 
     WebMenuItem getPengembalianDetailMenuItem();
 
-    WebMenuItem getPenerimaDetailMenuItem();
-
     WebMenuItem getPengembaliDetailMenuItem();
+
+    WebMenuItem getPenerimaDetailMenuItem();
 
     WebMenuItem getDeleteMenuItem();
 

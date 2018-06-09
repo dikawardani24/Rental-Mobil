@@ -34,7 +34,7 @@ import javax.swing.*;
  * @author dika
  */
 public final class DeleteKaryawanActivity extends Activity<DeleteKaryawanView> implements DeleteKaryawanView {
-    private final DeleteKaryawanView deleteKaryawanView = new DeleteKaryawanViewImpl();
+    private final DeleteKaryawanView view = new DeleteKaryawanViewImpl();
     private Karyawan karyawan;
 
     public void setKaryawan(Karyawan karyawan) {
@@ -95,51 +95,51 @@ public final class DeleteKaryawanActivity extends Activity<DeleteKaryawanView> i
     @NotNull
     @Override
     public DeleteKaryawanView getView() {
-        return deleteKaryawanView;
+        return view;
     }
 
     @Override
     public TextField getIdKaryawanField() {
-        return deleteKaryawanView.getIdKaryawanField();
+        return view.getIdKaryawanField();
     }
 
     @Override
     public TextField getNamaField() {
-        return deleteKaryawanView.getNamaField();
+        return view.getNamaField();
     }
 
     @Override
     public TextField getJenkelField() {
-        return deleteKaryawanView.getJenkelField();
+        return view.getJenkelField();
     }
 
     @Override
     public TextField getNoTelpField() {
-        return deleteKaryawanView.getNoTelpField();
+        return view.getNoTelpField();
     }
 
     @Override
     public TextField getNoKtpField() {
-        return deleteKaryawanView.getNoKtpField();
+        return view.getNoKtpField();
     }
 
     @Override
     public TextArea getAlamatField() {
-        return deleteKaryawanView.getAlamatField();
+        return view.getAlamatField();
     }
 
     @Override
     public Button getCancelButton() {
-        return deleteKaryawanView.getCancelButton();
+        return view.getCancelButton();
     }
 
     @Override
     public Button getDeleteButton() {
-        return deleteKaryawanView.getDeleteButton();
+        return view.getDeleteButton();
     }
 
     @Override
     public Dialog getRoot() {
-        return deleteKaryawanView.getRoot();
+        return view.getRoot();
     }
 }

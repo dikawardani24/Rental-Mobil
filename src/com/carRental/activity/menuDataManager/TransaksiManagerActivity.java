@@ -17,11 +17,18 @@ package com.carRental.activity.menuDataManager;
 
 import com.alee.laf.menu.WebMenuItem;
 import com.carRental.activity.menuDataManager.transaksi.DeleteTransaksiActivity;
+import com.carRental.activity.menuDataManager.transaksi.DetailKaryawanActivity;
+import com.carRental.activity.menuDataManager.transaksi.DetailPengembalianViewActivity;
 import com.carRental.activity.tableModel.TransaksiTableModel;
+import com.carRental.model.Karyawan;
+import com.carRental.model.Pengembalian;
 import com.carRental.model.Sewa;
 import com.carRental.report.TransaksiReport;
+import com.carRental.service.PengembalianServiceImpl;
 import com.carRental.service.SewaServiceImpl;
 import com.dika.activity.Activity;
+import com.dika.activity.service.OnResumedAction;
+import com.dika.activity.service.OnStartedAction;
 import com.dika.view.component.Frame;
 import com.dika.view.component.Table;
 import com.dika.view.component.custom.PrintButton;
@@ -39,7 +46,8 @@ import java.util.List;
  *
  * @author dika
  */
-public final class TransaksiManagerActivity extends Activity<TransaksiManagerView> implements TransaksiManagerView, PagingTableViewService {
+public final class TransaksiManagerActivity extends Activity<TransaksiManagerView>
+        implements TransaksiManagerView, PagingTableViewService {
     private final TransaksiManagerView view = new TransaksiManagerViewImpl();
     private TransaksiTableModel tableModel;
     private PagingTableViewAction action;
@@ -57,6 +65,15 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
         }
     }
 
+    private Pengembalian getPengembalianFrom(Sewa sewa) {
+        return execute(new PengembalianServiceImpl(), pengembalianService -> {
+            try {
+                return pengembalianService.findBy(sewa);
+            } catch (Exception e) {
+                return null;
+            }
+        });
+    }
 
     private void printDataTransaksi() {
         if (tableModel.getEntities().isEmpty()) {
@@ -80,15 +97,54 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
     }
 
     private void viewDetailPengembalian() {
+        Sewa sewa = getSewaOnSelectedRow();
 
-    }
+        if (sewa != null) {
+            Pengembalian pengembalian = getPengembalianFrom(sewa);
 
-    private void viewDetailPenerima() {
-
+            if (pengembalian != null) {
+                DetailPengembalianViewActivity activity = startOther(DetailPengembalianViewActivity.class);
+                activity.setPengembalian(pengembalian);
+            } else {
+                showFailed("Tidak Menemukan Data Pengembalian Untuk Sewa Ini");
+            }
+        } else {
+            showInfo("Tidak Ada Baris Terpilih");
+        }
     }
 
     private void viewDetailPenerimaan() {
 
+    }
+
+    private void viewDetailPenerima() {
+        Sewa sewa = getSewaOnSelectedRow();
+
+        if (sewa != null) {
+            Karyawan pemberiSewa = sewa.getPemberiSewa();
+            startDetailActivityOf(pemberiSewa);
+        } else {
+            showInfo("Tidak Ada Baris Terpilih");
+        }
+    }
+
+    private void viewDetailPenerimaKembali() {
+        Sewa sewa = getSewaOnSelectedRow();
+        if (sewa != null) {
+
+            Pengembalian pengembalian = getPengembalianFrom(sewa);
+            if (pengembalian != null) {
+                Karyawan penerimaKembali = pengembalian.getPenerimaKembali();
+                startDetailActivityOf(penerimaKembali);
+            }
+        } else {
+            showInfo("Tidak Ada Baris Terpilih");
+        }
+    }
+
+    private void startDetailActivityOf(Karyawan karyawan) {
+        DetailKaryawanActivity activity = startOther(DetailKaryawanActivity.class);
+        activity.setKaryawan(karyawan);
     }
 
     private Date getDateFrom(DateChooserCombo dateChooserCombo) {
@@ -120,6 +176,7 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
     protected void initListener(TransaksiManagerView transaksiManagerView) {
         Table table = getPagingTableViewImpl().getTable();
         table.setEditable(false);
+        tableModel = new TransaksiTableModel(table);
         action = new PagingTableViewAction(this, getPagingTableViewImpl(), 100);
 
         getSearchButton().addActionListener(e -> action.toFirstPage());
@@ -132,7 +189,12 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
 
         getPengembalianDetailMenuItem().addActionListener(e -> viewDetailPengembalian());
 
+        getPengembaliDetailMenuItem().addActionListener(e -> viewDetailPenerimaKembali());
+
         getDeleteMenuItem().addActionListener(e -> deleteTransaksi());
+
+        add((OnStartedAction) activity -> action.toFirstPage());
+        add((OnResumedAction) activity -> action.refreshPage());
     }
 
     @Override
@@ -146,13 +208,13 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
     }
 
     @Override
-    public WebMenuItem getPenerimaDetailMenuItem() {
-        return view.getPenerimaDetailMenuItem();
+    public WebMenuItem getPengembaliDetailMenuItem() {
+        return view.getPengembaliDetailMenuItem();
     }
 
     @Override
-    public WebMenuItem getPengembaliDetailMenuItem() {
-        return view.getPengembaliDetailMenuItem();
+    public WebMenuItem getPenerimaDetailMenuItem() {
+        return view.getPenerimaDetailMenuItem();
     }
 
     @Override

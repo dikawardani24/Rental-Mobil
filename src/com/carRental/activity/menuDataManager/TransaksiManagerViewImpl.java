@@ -78,8 +78,6 @@ public final class TransaksiManagerViewImpl extends Frame implements TransaksiMa
         endDateChooser = new datechooser.beans.DateChooserCombo();
         startDateChooer = new datechooser.beans.DateChooserCombo();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
         headerLabel1.setText("Transaksi Data Manager");
 
         label1.setText("sampai");
@@ -175,13 +173,13 @@ public final class TransaksiManagerViewImpl extends Frame implements TransaksiMa
     }
 
     @Override
-    public WebMenuItem getPenerimaDetailMenuItem() {
-        return penerimaDetailMenuItem;
+    public WebMenuItem getPengembaliDetailMenuItem() {
+        return pengembaliDetailMenuItem;
     }
 
     @Override
-    public WebMenuItem getPengembaliDetailMenuItem() {
-        return pengembaliDetailMenuItem;
+    public WebMenuItem getPenerimaDetailMenuItem() {
+        return penerimaDetailMenuItem;
     }
 
     @Override
