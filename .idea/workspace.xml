@@ -4,8 +4,41 @@
     <option name="SCOPE_TYPE" value="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d97b2b2b-2411-468c-9e5c-155a820dbfda" name="Default" comment="">
+    <list default="true" id="d97b2b2b-2411-468c-9e5c-155a820dbfda" name="Default" comment="Fix Count Tagihan When Car is being chosen">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/MainViewImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/DetailCarActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/DetailCarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/DetailCarViewImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/DetailPelangganActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/DetailPelangganView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/DetailPelangganViewImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/pengembalian/PengembalianContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/pengembalian/PengembalianContainerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/pengembalian/PengembalianController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaContainerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaController$CountKembalianThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaController$CountTagihan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaController$CountThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/main/sewa/SewaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/TransaksiManagerActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/TransaksiManagerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/TransaksiManagerViewImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/AddKaryawanActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/DeleteKaryawanActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/karyawan/UpdateKaryawanActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/AddMerkActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/DeleteMerkActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/merk/UpdateMerkActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/pelanggan/AddPelangganActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/activity/menuDataManager/user/AddUserActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Rental Mobil/com/carRental/model/Pengembalian.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +52,17 @@
     <favorites_list name="Rental Mobil" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +73,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dikawardani24 &lt;dikawardani24@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -42,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/carRental/view/menuDataManager/user/AddUserViewImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/carRental/view/menuDataManager/user/DeleteUserViewImpl.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/view/menuDataManager/CarManagerViewImpl.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/report/Kwitansi.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/view/model/SewaTableModel.java" />
@@ -93,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/pelanggan/AddPelangganActivity.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/menuDataManager/user/AddUserActivity.java" />
         <option value="$PROJECT_DIR$/src/com/carRental/activity/main/SewaController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -103,7 +151,7 @@
     <option name="height" value="521" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -147,19 +195,6 @@
               <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
               <item name="com.carRental" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
-              <item name="com.carRental" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
-              <item name="com.carRental" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -170,16 +205,6 @@
             <path>
               <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,14 +392,23 @@
       <option name="project" value="LOCAL" />
       <updated>1528532205473</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix Count Tagihan When Car is being chosen">
+      <created>1528532491886</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528532491886</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33184358" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3286385" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -393,7 +427,6 @@
       <window_info id="Favorites" order="7" sideWeight="0.71048516" side_tool="true" weight="0.21439394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.8231612" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3286385" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.55924696" />
@@ -420,16 +453,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fix Count Tagihan When Car is being chosen" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/Dika_JPA_Starter/jpa_starter_dika.jar!/com/dika/view/custom/PagingTableViewAction.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/model/Karyawan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="124" column="21" lean-forward="true" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -852,8 +875,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/main/SewaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="-221">
+          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
