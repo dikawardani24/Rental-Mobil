@@ -109,9 +109,27 @@ public class PengembalianController extends MainController
 
         if (sewa == null) {
             showFailed("Tidak Menemukan Transaksi Sewa Dengan ID : "+idSewa);
-        } else {
-            viewDetail(sewa);
+            return;
         }
+
+        if (isSewaCompleted(sewa)) {
+            showInfo("Transaksi Sewa Ini Sudah Selesai");
+            return;
+        }
+
+        viewDetail(sewa);
+    }
+
+    private boolean isSewaCompleted(@NotNull Sewa sewa) {
+        Pengembalian pengembalian = execute(new PengembalianServiceImpl(), pengembalianService -> {
+            try {
+                return pengembalianService.findBy(sewa);
+            } catch (Exception e) {
+                return null;
+            }
+        });
+
+        return pengembalian != null;
     }
 
     private void viewDetail(Sewa sewa) {

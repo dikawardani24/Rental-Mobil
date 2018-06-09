@@ -159,6 +159,8 @@ public class SewaController extends MainController
             chosenCar = car;
             getNoPlatField().setText(car.getNoPlat());
             getHargaSewaField().setValue(car.getHargaSewa());
+            CountTagihan countTagihan = new CountTagihan();
+            countTagihan.start();
         });
     }
 
