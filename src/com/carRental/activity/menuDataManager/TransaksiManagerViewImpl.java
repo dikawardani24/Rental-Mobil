@@ -44,8 +44,8 @@ public final class TransaksiManagerViewImpl extends Frame implements TransaksiMa
         SmallIconRes res = SmallIconRes.INSTANCE;
         penerimaanDetailMenuItem = new WebMenuItem("Detail Penerimaan", res.getSeeIcon());
         pengembalianDetailMenuItem= new WebMenuItem("Detail Pengembalian", res.getSeeIcon());
-        penerimaDetailMenuItem= new WebMenuItem("Detail Penerima", res.getUser20Icon());
-        pengembaliDetailMenuItem= new WebMenuItem("Detail Penerimaan", res.getUser20Icon());
+        penerimaDetailMenuItem= new WebMenuItem("Detail Pemberi Sewa", res.getUser20Icon());
+        pengembaliDetailMenuItem= new WebMenuItem("Detail Penerima Kembali", res.getUser20Icon());
         deleteMenuItem = new WebMenuItem("Hapus", res.getCancelIcon());
 
         JPopupMenu tableDataMenu = new JPopupMenu("Table Menu");

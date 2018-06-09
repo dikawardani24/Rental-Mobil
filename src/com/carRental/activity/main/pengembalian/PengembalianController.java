@@ -183,6 +183,7 @@ public class PengembalianController extends MainController
 
                 if (carUpdated) {
                     pagingTableViewAction.refreshPage();
+                    clear();
                     showSucceed("Data Pengembalian Berhasil Disimpan");
                 } else {
                     showFailed("Data Pengembalian Gagal Disimpan");
@@ -253,6 +254,7 @@ public class PengembalianController extends MainController
 
     @Override
     public void clear() {
+        getIdSewaField().clear();
         container.clear();
         sewa = null;
     }

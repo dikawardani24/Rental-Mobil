@@ -126,7 +126,7 @@ public class SewaController extends MainController
         return execute(new CarServiceImpl(), carService -> {
             try {
                 car.setStatus(CarStatus.SEDANG_DISEWA.getText());
-                carService.destroy(car);
+                carService.update(car);
                 return true;
             } catch (Exception e) {
                 Logger.INSTANCE.printError(e);

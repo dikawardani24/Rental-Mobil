@@ -31,8 +31,8 @@ public class TransaksiReport extends DataReport {
     @NotNull
     @Override
     protected DRDataSource createDataSource() {
-        DRDataSource dataSource = new DRDataSource("id", "noPlat", "warna",
-                "noRangka", "noMesin", "hargaSewa", "status");
+        DRDataSource dataSource = new DRDataSource("id", "pelanggan", "tglSewa",
+                "noPlat", "lamaSewa", "tagihan", "status");
 
         sewaList.forEach(sewa -> {
             Pelanggan pelanggan = sewa.getPelanggan();
@@ -55,7 +55,7 @@ public class TransaksiReport extends DataReport {
                     pelanggan.getNama(),
                     tglSewa,
                     car.getNoPlat(),
-                    sewa.getLamaSewa(),
+                    sewa.getLamaSewa()+" hari",
                     tagihan,
                     status
             );
@@ -70,7 +70,7 @@ public class TransaksiReport extends DataReport {
         TextColumnBuilder<?> idCol = createColumn("ID Sewa", "id", type.integerType());
         TextColumnBuilder<?> pelangganCol = createColumn("Pelanggan", "pelanggan", type.stringType());
         TextColumnBuilder<?> tglSewaCol = createColumn("Tgl. Sewa", "tglSewa", type.stringType());
-        TextColumnBuilder<?> noPlatCol = createColumn("No. Plat Mobil", "noPlatMobil", type.stringType());
+        TextColumnBuilder<?> noPlatCol = createColumn("No. Plat Mobil", "noPlat", type.stringType());
         TextColumnBuilder<?> lamaSewaCol = createColumn("Lama Sewa", "lamaSewa", type.stringType());
         TextColumnBuilder<?> tagihan = createColumn("Tagihan", "tagihan", type.stringType());
         TextColumnBuilder<?> statusCol = createColumn("Status", "status", type.stringType());
