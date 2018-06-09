@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.carRental.activity.main.pengembalian;
+package com.carRental.activity.main;
 
 import com.carRental.activity.main.pengembalian.DetailCarContainer;
 import com.carRental.activity.main.pengembalian.DetailPelangganContainer;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.carRental.activity.main.sewa;
+package com.carRental.activity.main;
 
 import com.carRental.activity.main.sewa.InputCarContainer;
 import com.carRental.activity.main.sewa.InputPelangganContainer;

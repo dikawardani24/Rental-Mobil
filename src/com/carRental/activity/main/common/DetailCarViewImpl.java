@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.carRental.activity.main;
+package com.carRental.activity.main.common;
 
 import com.dika.view.component.Button;
 import com.dika.view.component.Dialog;
-import com.dika.view.component.TextArea;
 import com.dika.view.component.TextField;
+import com.dika.view.component.custom.CurrencyFormattedTextField;
 
 /**
  *
  * @author dika
  */
-public final class DetailPelangganViewImpl extends Dialog implements DetailPelangganView{
+public final class DetailCarViewImpl extends Dialog implements DetailCarView {
 
     /**
-     * Creates new form AddPelangganViewImpl
+     * Creates new form DeleteCarViewImpl
      */
-    public DetailPelangganViewImpl() {
+    public DetailCarViewImpl() {
         super();
         initComponents();
-        setTitle("Detail Pelanggan");
+        setTitle("Detail Mobil");
     }
 
     /**
@@ -51,33 +51,36 @@ public final class DetailPelangganViewImpl extends Dialog implements DetailPelan
         com.dika.view.component.Label label3 = new com.dika.view.component.Label();
         com.dika.view.component.Label label4 = new com.dika.view.component.Label();
         com.dika.view.component.Label label5 = new com.dika.view.component.Label();
+        com.dika.view.component.Label label6 = new com.dika.view.component.Label();
         cancelButton1 = new com.dika.view.component.custom.CancelButton();
-        jenkelField = new com.dika.view.component.custom.UnEditableTextField();
-        namaField = new com.dika.view.component.custom.UnEditableTextField();
-        noHpField = new com.dika.view.component.custom.UnEditableTextField();
-        noKtpField = new com.dika.view.component.custom.UnEditableTextField();
-        javax.swing.JScrollPane jScrollPane1 = new javax.swing.JScrollPane();
-        alamatField = new com.dika.view.component.custom.UnEditableTextArea();
+        idCarField = new com.dika.view.component.custom.UnEditableTextField();
+        com.dika.view.component.Label label7 = new com.dika.view.component.Label();
+        noPlatField = new com.dika.view.component.custom.UnEditableTextField();
+        warnaField = new com.dika.view.component.custom.UnEditableTextField();
+        noRangkaField = new com.dika.view.component.custom.UnEditableTextField();
+        noMesinField = new com.dika.view.component.custom.UnEditableTextField();
+        hargaSewaField = new com.dika.view.component.custom.UneditableCurrencyFormattedTextField();
+        merkField = new com.dika.view.component.custom.UnEditableTextField();
 
-        setTitle("Hapus Data Pelanggan ?");
+        setTitle("Hapus Data Mobil");
 
-        headerLabel1.setText("Detail Pelanggan");
+        headerLabel1.setText("Detail Mobil");
 
-        label1.setText("Nama");
+        label1.setText("No. Plat");
 
-        label2.setText("Jenis Kelamin");
+        label2.setText("Warna");
 
-        label3.setText("No. Hp");
+        label3.setText("No. Rangka");
 
-        label4.setText("No. Ktp");
+        label4.setText("No. Mesin");
 
-        label5.setText("Alamat");
+        label5.setText("Harga Sewa");
+
+        label6.setText("Merk");
 
         cancelButton1.setText("Tutup");
 
-        alamatField.setColumns(20);
-        alamatField.setRows(5);
-        jScrollPane1.setViewportView(alamatField);
+        label7.setText("Id Mobil");
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -88,21 +91,25 @@ public final class DetailPelangganViewImpl extends Dialog implements DetailPelan
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel1Layout.createSequentialGroup()
                         .addComponent(headerLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 313, Short.MAX_VALUE))
                     .addGroup(panel1Layout.createSequentialGroup()
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(label3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(label5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(label5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jenkelField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(namaField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(noHpField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(noKtpField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 439, Short.MAX_VALUE)))
+                            .addComponent(idCarField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(noPlatField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(warnaField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(noRangkaField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(noMesinField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(hargaSewaField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(merkField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(cancelButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -115,25 +122,33 @@ public final class DetailPelangganViewImpl extends Dialog implements DetailPelan
                 .addComponent(headerLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(idCarField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(namaField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(noPlatField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jenkelField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(warnaField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(noHpField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(noRangkaField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(noKtpField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(noMesinField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(hargaSewaField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(merkField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(cancelButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -151,7 +166,7 @@ public final class DetailPelangganViewImpl extends Dialog implements DetailPelan
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(panel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -159,46 +174,58 @@ public final class DetailPelangganViewImpl extends Dialog implements DetailPelan
     }// </editor-fold>//GEN-END:initComponents
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.dika.view.component.custom.UnEditableTextArea alamatField;
     private com.dika.view.component.custom.CancelButton cancelButton1;
-    private com.dika.view.component.custom.UnEditableTextField jenkelField;
-    private com.dika.view.component.custom.UnEditableTextField namaField;
-    private com.dika.view.component.custom.UnEditableTextField noHpField;
-    private com.dika.view.component.custom.UnEditableTextField noKtpField;
+    private com.dika.view.component.custom.UneditableCurrencyFormattedTextField hargaSewaField;
+    private com.dika.view.component.custom.UnEditableTextField idCarField;
+    private com.dika.view.component.custom.UnEditableTextField merkField;
+    private com.dika.view.component.custom.UnEditableTextField noMesinField;
+    private com.dika.view.component.custom.UnEditableTextField noPlatField;
+    private com.dika.view.component.custom.UnEditableTextField noRangkaField;
+    private com.dika.view.component.custom.UnEditableTextField warnaField;
     // End of variables declaration//GEN-END:variables
 
     @Override
-    public TextField getNamaField() {
-        return namaField;
+    public TextField getIdCarField() {
+        return idCarField;
     }
 
     @Override
-    public TextArea getAlamatField() {
-        return alamatField;
+    public TextField getNoPlatField() {
+        return noPlatField;
     }
 
     @Override
-    public TextField getJenisKelaminField() {
-        return jenkelField;
+    public TextField getWarnaField() {
+        return warnaField;
     }
 
     @Override
-    public TextField getNoKtpField() {
-        return noKtpField;
+    public TextField getNoRangkaField() {
+        return noRangkaField;
     }
 
     @Override
-    public TextField getNoHpField() {
-        return noHpField;
+    public TextField getNoMesinField() {
+        return noMesinField;
+    }
+
+    @Override
+    public CurrencyFormattedTextField getHargaSewaField() {
+        return hargaSewaField;
+    }
+
+    @Override
+    public TextField getMerkField() {
+        return merkField;
+    }
+    
+    @Override
+    public Button getCancelButton() {
+        return cancelButton1;
     }
 
     @Override
     public Dialog getRoot() {
         return this;
-    }
-
-    @Override
-    public Button getCancelButton() {
-        return cancelButton1;
     }
 }

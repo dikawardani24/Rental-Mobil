@@ -15,8 +15,10 @@
  */
 package com.carRental.activity;
 
-import com.carRental.activity.main.pengembalian.PengembalianContainer;
-import com.carRental.activity.main.sewa.SewaContainer;
+import com.carRental.activity.main.PengembalianContainerImpl;
+import com.carRental.activity.main.PengembalianContainer;
+import com.carRental.activity.main.SewaContainer;
+import com.carRental.activity.main.SewaContainerImpl;
 import com.dika.res.SmallIconRes;
 import com.dika.view.component.Frame;
 
@@ -49,6 +51,7 @@ public class MainViewImpl extends Frame implements MainView{
         mdUserMenu.setIcon(res.getDotIcon());
         mdPelangganMenu.setIcon(res.getDotIcon());
         mdCarMenu.setIcon(res.getDotIcon());
+
         abLaundryMenu.setIcon(res.getOfficeIcon());
         abProgramMenu.setIcon(res.getAppsIcon());
         abUnivMenu.setIcon(res.getOfficeIcon());
@@ -64,8 +67,8 @@ public class MainViewImpl extends Frame implements MainView{
     private void initComponents() {
 
         com.alee.laf.tabbedpane.WebTabbedPane webTabbedPane1 = new com.alee.laf.tabbedpane.WebTabbedPane();
-        sewaContainerImpl1 = new com.carRental.activity.main.sewa.SewaContainerImpl();
-        pengembalianContainerImpl1 = new com.carRental.activity.main.pengembalian.PengembalianContainerImpl();
+        sewaContainerImpl1 = new SewaContainerImpl();
+        pengembalianContainerImpl1 = new PengembalianContainerImpl();
         com.dika.view.component.MenuBar menuBar = new com.dika.view.component.MenuBar();
         programMenu = new javax.swing.JMenu();
         changeUsernameMenu = new javax.swing.JMenuItem();
@@ -185,9 +188,9 @@ public class MainViewImpl extends Frame implements MainView{
     private javax.swing.JMenuItem mdPelangganMenu;
     private javax.swing.JMenuItem mdTransaksiMenu;
     private javax.swing.JMenuItem mdUserMenu;
-    private com.carRental.activity.main.pengembalian.PengembalianContainerImpl pengembalianContainerImpl1;
+    private PengembalianContainerImpl pengembalianContainerImpl1;
     private javax.swing.JMenu programMenu;
-    private com.carRental.activity.main.sewa.SewaContainerImpl sewaContainerImpl1;
+    private SewaContainerImpl sewaContainerImpl1;
     // End of variables declaration//GEN-END:variables
 
     @Override

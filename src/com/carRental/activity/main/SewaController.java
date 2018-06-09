@@ -1,9 +1,12 @@
-package com.carRental.activity.main.sewa;
+package com.carRental.activity.main;
 
 import com.carRental.Session;
 import com.carRental.activity.MainActivity;
-import com.carRental.activity.main.DetailCarActivity;
-import com.carRental.activity.main.MainController;
+import com.carRental.activity.main.common.DetailCarActivity;
+import com.carRental.activity.main.sewa.ChooseCarActivity;
+import com.carRental.activity.main.sewa.InputCarContainer;
+import com.carRental.activity.main.sewa.InputPelangganContainer;
+import com.carRental.activity.main.sewa.TagihanContainer;
 import com.carRental.model.Car;
 import com.carRental.model.Pelanggan;
 import com.carRental.model.Sewa;
@@ -114,6 +117,7 @@ public class SewaController extends MainController
                         sewaService.create(sewa);
                         pagingTableViewAction.toLastPage();
                         printKwitansi(sewa);
+                        clear();
                         return Unit.INSTANCE;
                     });
         } else {

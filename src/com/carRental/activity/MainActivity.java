@@ -16,8 +16,8 @@
 package com.carRental.activity;
 
 import com.carRental.activity.main.MainController;
-import com.carRental.activity.main.pengembalian.PengembalianController;
-import com.carRental.activity.main.sewa.SewaController;
+import com.carRental.activity.main.PengembalianController;
+import com.carRental.activity.main.SewaController;
 import com.carRental.activity.menuAbout.AppsAboutActivity;
 import com.carRental.activity.menuAbout.CompanyAboutActivity;
 import com.carRental.activity.menuAbout.UnivAboutActivity;

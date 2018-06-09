@@ -13,13 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.carRental.activity.main.pengembalian;
+package com.carRental.activity.main;
 
 import com.carRental.Session;
 import com.carRental.activity.MainActivity;
-import com.carRental.activity.main.DetailCarActivity;
-import com.carRental.activity.main.DetailPelangganActivity;
-import com.carRental.activity.main.MainController;
+import com.carRental.activity.main.common.DetailCarActivity;
+import com.carRental.activity.main.common.DetailPelangganActivity;
+import com.carRental.activity.main.pengembalian.DetailCarContainer;
+import com.carRental.activity.main.pengembalian.DetailPelangganContainer;
+import com.carRental.activity.main.pengembalian.DetailTagihanContainer;
 import com.carRental.model.Car;
 import com.carRental.model.Pelanggan;
 import com.carRental.model.Pengembalian;
