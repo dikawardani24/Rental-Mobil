@@ -27,8 +27,8 @@ class App {
     
     public static void main(String [] args) {
         com.dika.System.INSTANCE.boot((com.dika.System system) -> {
-            system.setCompanyName("");
-            system.setAddressCompanty("");
+            system.setCompanyName("CV. Indah Jaya Rent Car");
+            system.setAddressCompanty("Jl. Swadaya 1 Rt 9/9, No. 37, Pejaten Timur, Pasar Minggu");
             system.setPersitenceName("Rental_MobilPU");
             system.setAllowMultipleInstance(false);
             system.setLoggerType(Logger.LoggerType.FULL_VERBOSE);

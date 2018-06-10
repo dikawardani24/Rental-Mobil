@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="698d7622-83e5-453e-bcbc-b484d095e478" name="Default" comment="Replace JPA Starter library">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dika_JPA_Starter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jpa_starter_dika.xml" beforeDir="false" />
+    <list default="true" id="698d7622-83e5-453e-bcbc-b484d095e478" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rental Mobil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rental Mobil.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/html/about_apps.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/html/about_apps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/carRental/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,47 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/carRental/Session.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/carRental/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="391">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppsAboutActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutActivity.java">
+      <file leaf-file-name="about_apps.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/META-INF/html/about_apps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppsAboutView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.java">
+      <file leaf-file-name="about_company.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/META-INF/html/about_company.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyAboutActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="296">
+              <caret line="36" column="71" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -78,15 +52,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/META-INF/html/about_apps.html" />
         <option value="$PROJECT_DIR$/src/com/carRental/App.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="79" />
-    <option name="y" value="99" />
-    <option name="width" value="811" />
-    <option name="height" value="521" />
+    <option name="x" value="214" />
+    <option name="y" value="66" />
+    <option name="width" value="667" />
+    <option name="height" value="627" />
   </component>
   <component name="ProjectView">
     <navigator currentView="PackagesPane" proportions="" version="1">
@@ -126,9 +101,13 @@
             <path>
               <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
               <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
-              <item name="com.carRental" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="menuAbout" type="1f31426a:PackageElementNode" />
+              <item name="META-INF" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
+              <item name="META-INF" type="1f31426a:PackageElementNode" />
+              <item name="html" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -228,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528634683709</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update about view and activity">
+      <created>1528635261849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528635261849</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -268,7 +254,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Recreate Project Using Intelij" />
     <MESSAGE value="Replace JPA Starter library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace JPA Starter library" />
+    <MESSAGE value="Update about view and activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update about view and activity" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -299,13 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -324,6 +304,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/html/about_apps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/html/about_company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="36" column="71" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
