@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="jpa_starter_dika">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/Dika_JPA_Starter/jpa_starter_dika.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

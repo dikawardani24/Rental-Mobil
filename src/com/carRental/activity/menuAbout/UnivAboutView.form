@@ -55,7 +55,7 @@
                               <Component id="headerLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="midHeaderLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="159" max="32767" attributes="0"/>
+                          <EmptySpace pref="112" max="32767" attributes="0"/>
                           <Component id="univLogoImageHolder1" min="-2" pref="145" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
@@ -95,7 +95,7 @@
       <SubComponents>
         <Component class="com.dika.view.component.custom.HeaderLabel" name="headerLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="STT Pelita Bangsa"/>
+            <Property name="text" type="java.lang.String" value="Universitas Indra Prasta"/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
@@ -104,7 +104,7 @@
         </Component>
         <Component class="com.dika.view.component.custom.MidHeaderLabel" name="midHeaderLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Bekasi"/>
+            <Property name="text" type="java.lang.String" value="Jakarta"/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>

@@ -27,6 +27,8 @@ class App {
     
     public static void main(String [] args) {
         com.dika.System.INSTANCE.boot((com.dika.System system) -> {
+            system.setCompanyName("");
+            system.setAddressCompanty("");
             system.setPersitenceName("Rental_MobilPU");
             system.setAllowMultipleInstance(false);
             system.setLoggerType(Logger.LoggerType.FULL_VERBOSE);

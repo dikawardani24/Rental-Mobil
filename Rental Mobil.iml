@@ -8,12 +8,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="DateChooser" level="project" />
-    <orderEntry type="library" name="jpa_starter_dika" level="project" />
     <orderEntry type="library" name="Report" level="project" />
     <orderEntry type="library" name="WebLaf" level="project" />
     <orderEntry type="library" name="eclipselink" level="project" />
     <orderEntry type="library" name="Kotlin" level="project" />
     <orderEntry type="library" name="org-netbeans-modules-java-j2seproject-copylibstask" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.23-bin" level="project" />
+    <orderEntry type="library" name="Dika_JPA_Starter" level="project" />
   </component>
 </module>

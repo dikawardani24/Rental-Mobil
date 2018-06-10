@@ -52,9 +52,9 @@ public final class CompanyAboutView extends Dialog implements View<Dialog>{
         jTextPane1 = new javax.swing.JTextPane();
         cancelButton1 = new com.dika.view.component.custom.CancelButton();
 
-        headerLabel1.setText("Laundry");
+        headerLabel1.setText("CV Indah Jaya Rent Car");
 
-        midHeaderLabel1.setText("Bogor");
+        midHeaderLabel1.setText("Jakarta");
 
         jTextPane1.setEditable(false);
         jScrollPane1.setViewportView(jTextPane1);
@@ -72,7 +72,7 @@ public final class CompanyAboutView extends Dialog implements View<Dialog>{
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(headerLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(midHeaderLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(companyLogoImageHolder1, javax.swing.GroupLayout.PREFERRED_SIZE, 393, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jScrollPane1)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()

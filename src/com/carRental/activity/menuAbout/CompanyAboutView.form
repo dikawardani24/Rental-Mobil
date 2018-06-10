@@ -55,7 +55,7 @@
                               <Component id="headerLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="midHeaderLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="49" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="companyLogoImageHolder1" min="-2" pref="393" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
@@ -92,7 +92,7 @@
       <SubComponents>
         <Component class="com.dika.view.component.custom.HeaderLabel" name="headerLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Laundry"/>
+            <Property name="text" type="java.lang.String" value="CV Indah Jaya Rent Car"/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
@@ -101,7 +101,7 @@
         </Component>
         <Component class="com.dika.view.component.custom.MidHeaderLabel" name="midHeaderLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Bogor"/>
+            <Property name="text" type="java.lang.String" value="Jakarta"/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>

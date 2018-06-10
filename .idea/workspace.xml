@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="698d7622-83e5-453e-bcbc-b484d095e478" name="Default" comment="">
+    <list default="true" id="698d7622-83e5-453e-bcbc-b484d095e478" name="Default" comment="Replace JPA Starter library">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dika_JPA_Starter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jpa_starter_dika.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rental Mobil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rental Mobil.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/carRental/activity/menuAbout/UnivAboutView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +23,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/carRental/Session.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/carRental/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppsAboutActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppsAboutView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyAboutActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +78,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/carRental/App.java" />
       </list>
     </option>
   </component>
@@ -36,6 +93,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -48,29 +117,36 @@
               <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
               <item name="com.carRental" type="1f31426a:PackageElementNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="Rental Mobil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rental Mobil" type="462c0819:PsiDirectoryNode" />
+              <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
+              <item name="com.carRental" type="1f31426a:PackageElementNode" />
+              <item name="activity" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Rental Mobil" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Rental Mobil" type="616d4139:PackageViewModuleNode" />
+              <item name="com.carRental" type="1f31426a:PackageElementNode" />
+              <item name="activity" type="1f31426a:PackageElementNode" />
+              <item name="menuAbout" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/Dika_JPA_Starter" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/Dika_JPA_Starter" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,11 +221,19 @@
       <option name="project" value="LOCAL" />
       <updated>1528534162067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Replace JPA Starter library">
+      <created>1528634683709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528634683709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -159,20 +243,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25681818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25681818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -183,16 +267,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Recreate Project Using Intelij" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recreate Project Using Intelij" />
+    <MESSAGE value="Replace JPA Starter library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace JPA Starter library" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/carRental/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -211,6 +289,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1275">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/AppsAboutView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carRental/activity/menuAbout/CompanyAboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -290,7 +403,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>DateChooser</last-edited>
+          <last-edited>Dika_JPA_Starter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

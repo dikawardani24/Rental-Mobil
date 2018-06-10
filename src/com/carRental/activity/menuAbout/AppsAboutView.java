@@ -52,9 +52,9 @@ public final class AppsAboutView extends Dialog implements View<Dialog>{
         detailTextPane = new javax.swing.JTextPane();
         cancelButton1 = new com.dika.view.component.custom.CancelButton();
 
-        appNameLabel.setText("Aplikasi Laundry");
+        appNameLabel.setText("Aplikasi Rental Mobil");
 
-        locationLabel.setText("Bogor");
+        locationLabel.setText("Jakarta");
 
         detailTextPane.setEditable(false);
         jScrollPane1.setViewportView(detailTextPane);
@@ -73,7 +73,7 @@ public final class AppsAboutView extends Dialog implements View<Dialog>{
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(appNameLabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(locationLabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 189, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 145, Short.MAX_VALUE)
                         .addComponent(appLogoImageHolder1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)

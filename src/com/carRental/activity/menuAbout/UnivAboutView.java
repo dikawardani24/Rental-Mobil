@@ -53,9 +53,9 @@ public final class UnivAboutView extends Dialog implements View<Dialog>{
         jTextPane1 = new javax.swing.JTextPane();
         cancelButton1 = new com.dika.view.component.custom.CancelButton();
 
-        headerLabel1.setText("STT Pelita Bangsa");
+        headerLabel1.setText("Universitas Indra Prasta");
 
-        midHeaderLabel1.setText("Bekasi");
+        midHeaderLabel1.setText("Jakarta");
 
         jTextPane1.setEditable(false);
         jScrollPane1.setViewportView(jTextPane1);
@@ -73,7 +73,7 @@ public final class UnivAboutView extends Dialog implements View<Dialog>{
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(headerLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(midHeaderLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 159, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 112, Short.MAX_VALUE)
                         .addComponent(univLogoImageHolder1, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jScrollPane1)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()

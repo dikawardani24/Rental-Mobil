@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Dika_JPA_Starter">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/Dika_JPA_Starter" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/Dika_JPA_Starter" recursive="false" />
+  </library>
+</component>
