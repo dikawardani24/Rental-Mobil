@@ -165,20 +165,20 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
-        <Component class="com.carRental.activity.main.sewa.SewaContainerImpl" name="sewaContainerImpl1">
+        <Component class="com.carRental.activity.main.SewaContainerImpl" name="sewaContainerImpl1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Penyewaan Mobil">
-                <Property name="tabTitle" type="java.lang.String" value="Penyewaan Mobil"/>
+              <JTabbedPaneConstraints tabName="Penyewaan">
+                <Property name="tabTitle" type="java.lang.String" value="Penyewaan"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="com.carRental.activity.main.pengembalian.PengembalianContainerImpl" name="pengembalianContainerImpl1">
+        <Component class="com.carRental.activity.main.PengembalianContainerImpl" name="pengembalianContainerImpl1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Pengembalian Mobil">
-                <Property name="tabTitle" type="java.lang.String" value="Pengembalian Mobil"/>
+              <JTabbedPaneConstraints tabName="Pengembalian">
+                <Property name="tabTitle" type="java.lang.String" value="Pengembalian"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>

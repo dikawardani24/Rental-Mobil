@@ -67,8 +67,8 @@ public class MainViewImpl extends Frame implements MainView{
     private void initComponents() {
 
         com.alee.laf.tabbedpane.WebTabbedPane webTabbedPane1 = new com.alee.laf.tabbedpane.WebTabbedPane();
-        sewaContainerImpl1 = new SewaContainerImpl();
-        pengembalianContainerImpl1 = new PengembalianContainerImpl();
+        sewaContainerImpl1 = new com.carRental.activity.main.SewaContainerImpl();
+        pengembalianContainerImpl1 = new com.carRental.activity.main.PengembalianContainerImpl();
         com.dika.view.component.MenuBar menuBar = new com.dika.view.component.MenuBar();
         programMenu = new javax.swing.JMenu();
         changeUsernameMenu = new javax.swing.JMenuItem();
@@ -93,8 +93,8 @@ public class MainViewImpl extends Frame implements MainView{
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Rental Mobil");
 
-        webTabbedPane1.addTab("Penyewaan Mobil", sewaContainerImpl1);
-        webTabbedPane1.addTab("Pengembalian Mobil", pengembalianContainerImpl1);
+        webTabbedPane1.addTab("Penyewaan", sewaContainerImpl1);
+        webTabbedPane1.addTab("Pengembalian", pengembalianContainerImpl1);
 
         programMenu.setText("Program");
 
@@ -188,9 +188,9 @@ public class MainViewImpl extends Frame implements MainView{
     private javax.swing.JMenuItem mdPelangganMenu;
     private javax.swing.JMenuItem mdTransaksiMenu;
     private javax.swing.JMenuItem mdUserMenu;
-    private PengembalianContainerImpl pengembalianContainerImpl1;
+    private com.carRental.activity.main.PengembalianContainerImpl pengembalianContainerImpl1;
     private javax.swing.JMenu programMenu;
-    private SewaContainerImpl sewaContainerImpl1;
+    private com.carRental.activity.main.SewaContainerImpl sewaContainerImpl1;
     // End of variables declaration//GEN-END:variables
 
     @Override
