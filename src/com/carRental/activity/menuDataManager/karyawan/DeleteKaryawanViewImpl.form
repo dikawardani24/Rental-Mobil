@@ -67,11 +67,9 @@
                               <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="label6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="label7" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="idKaryawanField" max="32767" attributes="0"/>
                               <Component id="namaField" alignment="0" max="32767" attributes="0"/>
                               <Component id="jenkelField" alignment="0" max="32767" attributes="0"/>
                               <Component id="noTelpField" alignment="0" max="32767" attributes="0"/>
@@ -90,11 +88,6 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="headerLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="idKaryawanField" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="label7" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="label1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="namaField" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -185,17 +178,6 @@
           </AuxValues>
         </Component>
         <Component class="com.dika.view.component.custom.CancelButton" name="cancelButton">
-        </Component>
-        <Component class="com.dika.view.component.custom.UnEditableTextField" name="idKaryawanField">
-        </Component>
-        <Component class="com.dika.view.component.Label" name="label7">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="ID Karyawan"/>
-          </Properties>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-          </AuxValues>
         </Component>
         <Component class="com.dika.view.component.custom.UnEditableTextField" name="namaField">
         </Component>

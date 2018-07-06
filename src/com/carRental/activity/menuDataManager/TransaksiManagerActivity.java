@@ -113,10 +113,6 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
         }
     }
 
-    private void viewDetailPenerimaan() {
-
-    }
-
     private void viewDetailPenerima() {
         Sewa sewa = getSewaOnSelectedRow();
 
@@ -183,8 +179,6 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
 
         getPrintButton().addActionListener(e -> printDataTransaksi());
 
-        getPenerimaanDetailMenuItem().addActionListener(e -> viewDetailPenerimaan());
-
         getPenerimaDetailMenuItem().addActionListener(e -> viewDetailPenerima());
 
         getPengembalianDetailMenuItem().addActionListener(e -> viewDetailPengembalian());
@@ -195,11 +189,6 @@ public final class TransaksiManagerActivity extends Activity<TransaksiManagerVie
 
         add((OnStartedAction) activity -> action.toFirstPage());
         add((OnResumedAction) activity -> action.refreshPage());
-    }
-
-    @Override
-    public WebMenuItem getPenerimaanDetailMenuItem() {
-        return view.getPenerimaanDetailMenuItem();
     }
 
     @Override

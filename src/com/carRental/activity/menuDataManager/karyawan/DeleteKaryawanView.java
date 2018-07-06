@@ -30,7 +30,6 @@ import javax.swing.text.JTextComponent;
  * @author dika
  */
 public interface DeleteKaryawanView extends InputView<Dialog> {
-    TextField getIdKaryawanField();
     
     TextField getNamaField();
     
@@ -49,7 +48,6 @@ public interface DeleteKaryawanView extends InputView<Dialog> {
     @Override
     default List<JTextComponent> getTextComponents() {
         return CollectionHelper.INSTANCE.collectAsArrayList(
-            getIdKaryawanField(),
             getNamaField(),
             getJenkelField(),
             getNoTelpField(),

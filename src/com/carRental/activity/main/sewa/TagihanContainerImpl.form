@@ -28,7 +28,6 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="lamaSewaField" alignment="0" max="32767" attributes="0"/>
                           <Component id="tagihanField" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="paidField" pref="177" max="32767" attributes="0"/>
@@ -36,6 +35,11 @@
                               <Component id="calculatorButton1" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Component id="kembalianField" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lamaSewaField" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="label5" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -56,6 +60,7 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="label1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="lamaSewaField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="label5" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -131,6 +136,15 @@
     <Component class="com.dika.view.component.custom.MidHeaderLabel" name="midHeaderLabel1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Tagihan"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
+    </Component>
+    <Component class="com.dika.view.component.Label" name="label5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="hari"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>

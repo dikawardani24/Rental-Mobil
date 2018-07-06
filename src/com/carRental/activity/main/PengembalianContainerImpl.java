@@ -116,7 +116,6 @@ public class PengembalianContainerImpl extends Panel implements PengembalianCont
         );
     }// </editor-fold>//GEN-END:initComponents
 
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private com.dika.view.component.custom.ClearButton clearButton1;
     private com.carRental.activity.main.pengembalian.DetailCarContainerImpl detailCarContainer1;

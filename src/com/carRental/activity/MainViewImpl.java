@@ -140,7 +140,7 @@ public class MainViewImpl extends Frame implements MainView{
         abProgramMenu.setText("Tentang Program");
         aboutMenu.add(abProgramMenu);
 
-        abLaundryMenu.setText("Tentang Laundry");
+        abLaundryMenu.setText("Tentang Rental");
         aboutMenu.add(abLaundryMenu);
 
         abUnivMenu.setText("Tentang Universitas");

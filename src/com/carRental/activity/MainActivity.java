@@ -73,7 +73,8 @@ public class MainActivity extends InputActivity<MainView>{
         SewaController sewaController = new SewaController(this, view.getSewaContainer());
         sewaController.init();
         
-        PengembalianController pengembalianController = new PengembalianController(this, view.getPengembalianContainer());
+        PengembalianController pengembalianController = new PengembalianController(this, 
+                view.getPengembalianContainer());
         pengembalianController.init();
     }
     
@@ -93,11 +94,13 @@ public class MainActivity extends InputActivity<MainView>{
         showEmptyNotifOn(component);
     }
 
-    public  <R, S extends DatabaseService<?, ?>> R execute(MainController mainController, S dbService, Function1<? super S, ? extends R> block) {
+    public  <R, S extends DatabaseService<?, ?>> R execute(MainController mainController, 
+            S dbService, Function1<? super S, ? extends R> block) {
         return super.execute(dbService, block);
     }
 
-    public  <R, S extends DatabaseService<?, ?>> R execute(MainController mainController, S dbService, String onSucceed, String onFailed,
+    public  <R, S extends DatabaseService<?, ?>> R execute(MainController mainController, 
+            S dbService, String onSucceed, String onFailed,
                                                            Function1<? super S, ? extends R> block) {
         return super.execute(dbService, onSucceed, onFailed, block);
     }

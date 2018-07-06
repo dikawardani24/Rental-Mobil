@@ -40,7 +40,6 @@ public final class DeleteKaryawanActivity extends Activity<DeleteKaryawanView> i
     public void setKaryawan(Karyawan karyawan) {
         SwingUtilities.invokeLater(() -> {
             this.karyawan = karyawan;
-            getIdKaryawanField().setText(String.valueOf(karyawan.getId()));
             getNamaField().setText(karyawan.getNama());
             getJenkelField().setText(karyawan.getJenisKelamin());
             getNoTelpField().setText(karyawan.getNoHp());
@@ -91,18 +90,12 @@ public final class DeleteKaryawanActivity extends Activity<DeleteKaryawanView> i
         getDeleteButton().addActionListener(evt -> deleteKaryawan());
     }
 
-
     @NotNull
     @Override
     public DeleteKaryawanView getView() {
         return view;
     }
-
-    @Override
-    public TextField getIdKaryawanField() {
-        return view.getIdKaryawanField();
-    }
-
+    
     @Override
     public TextField getNamaField() {
         return view.getNamaField();

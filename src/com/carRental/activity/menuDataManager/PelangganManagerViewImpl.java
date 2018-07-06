@@ -20,6 +20,7 @@ import com.dika.res.SmallIconRes;
 import com.dika.view.component.Button;
 import com.dika.view.component.Frame;
 import com.dika.view.custom.PagingTableView;
+import javax.swing.JPopupMenu;
 
 /**
  *
@@ -32,6 +33,14 @@ public class PelangganManagerViewImpl extends Frame implements PelangganManagerV
      */
     public PelangganManagerViewImpl() {
         initComponents();
+        createContextMenuOnTable();
+    }
+    
+    private void createContextMenuOnTable() {
+        JPopupMenu tableDataMenu = new JPopupMenu("Table Menu");
+        tableDataMenu.add(updateMenuItem);
+        tableDataMenu.add(deleteMenuItem);
+        pagingTableViewImpl.getTable().setComponentPopupMenu(tableDataMenu);
     }
 
     /**

@@ -41,7 +41,8 @@ import java.util.List;
  *
  * @author dika
  */
-public final class KaryawanManagerActivity extends Activity<KaryawanManagerView> implements KaryawanManagerView, PagingTableViewService {
+public final class KaryawanManagerActivity extends Activity<KaryawanManagerView> 
+        implements KaryawanManagerView, PagingTableViewService {
     private final KaryawanManagerView view = new KaryawanManagerViewImpl();
     private KaryawanTableModel tableModel;
     private PagingTableViewAction pagingTableViewAction;

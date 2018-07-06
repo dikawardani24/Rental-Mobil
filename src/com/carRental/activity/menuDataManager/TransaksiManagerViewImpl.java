@@ -42,14 +42,12 @@ public final class TransaksiManagerViewImpl extends Frame implements TransaksiMa
     
     private void createContextMenuOnTable() {
         SmallIconRes res = SmallIconRes.INSTANCE;
-        penerimaanDetailMenuItem = new WebMenuItem("Detail Penerimaan", res.getSeeIcon());
         pengembalianDetailMenuItem= new WebMenuItem("Detail Pengembalian", res.getSeeIcon());
         penerimaDetailMenuItem= new WebMenuItem("Detail Pemberi Sewa", res.getUser20Icon());
         pengembaliDetailMenuItem= new WebMenuItem("Detail Penerima Kembali", res.getUser20Icon());
         deleteMenuItem = new WebMenuItem("Hapus", res.getCancelIcon());
 
         JPopupMenu tableDataMenu = new JPopupMenu("Table Menu");
-        tableDataMenu.add(penerimaanDetailMenuItem);
         tableDataMenu.add(pengembalianDetailMenuItem);
         tableDataMenu.add(new JSeparator());
         tableDataMenu.add(penerimaDetailMenuItem);
@@ -150,7 +148,6 @@ public final class TransaksiManagerViewImpl extends Frame implements TransaksiMa
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private WebMenuItem penerimaanDetailMenuItem;
     private WebMenuItem pengembalianDetailMenuItem;
     private WebMenuItem penerimaDetailMenuItem;
     private WebMenuItem pengembaliDetailMenuItem;
@@ -162,10 +159,6 @@ public final class TransaksiManagerViewImpl extends Frame implements TransaksiMa
     private com.dika.view.component.custom.SearchButton searchButton1;
     private datechooser.beans.DateChooserCombo startDateChooer;
     // End of variables declaration//GEN-END:variables
-    @Override
-    public WebMenuItem getPenerimaanDetailMenuItem() {
-        return penerimaanDetailMenuItem;
-    }
 
     @Override
     public WebMenuItem getPengembalianDetailMenuItem() {

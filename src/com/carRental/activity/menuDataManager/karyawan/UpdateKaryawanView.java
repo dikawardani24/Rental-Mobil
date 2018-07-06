@@ -31,7 +31,6 @@ import javax.swing.text.JTextComponent;
  * @author dika
  */
 public interface UpdateKaryawanView extends InputView<Dialog> {
-    TextField getIdKaryawanField();
     
     TextField getNamaField();
     
@@ -52,7 +51,6 @@ public interface UpdateKaryawanView extends InputView<Dialog> {
     @Override
     default List<JTextComponent> getTextComponents() {
         return CollectionHelper.INSTANCE.collectAsArrayList(
-                getIdKaryawanField(),
                 getNamaField(),
                 getNoTelpField(),
                 getNoKtpField(),

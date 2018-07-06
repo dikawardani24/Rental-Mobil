@@ -27,7 +27,6 @@ import datechooser.beans.DateChooserCombo;
  * @author dika
  */
 public interface TransaksiManagerView extends View<Frame> {
-    WebMenuItem getPenerimaanDetailMenuItem();
 
     WebMenuItem getPengembalianDetailMenuItem();
 

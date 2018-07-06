@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 19, 2018 at 08:03 PM
+-- Generation Time: Jul 06, 2018 at 05:43 AM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -46,7 +46,10 @@ CREATE TABLE `car` (
 --
 
 INSERT INTO `car` (`idcar`, `no_plat`, `warna`, `no_rangka`, `no_mesin`, `idmerk`, `harga_sewa`, `status`) VALUES
-(1, 'asdsad', 'asda', 'sda', 'sad', 1, '100000.0', 'Ada');
+(2, 'B5464EHS', 'Silver', 'MH3SE8810GJ554667', 'T3R3EO618051', 1, '450000.0', 'Sedang Di Sewa'),
+(3, 'B64644HHH', 'Hitam', '782473HG67364JH', 'JSDH647387878HH8', 2, '450000.0', 'Ada'),
+(4, 'B6464GF', 'Silver', '782473HG67364JH', 'JSDH647387878HH8', 2, '450000.0', 'Ada'),
+(5, 'B6464YT', 'Hitam', '782473HG67364JH', 'JSDH647387878HH8', 3, '450000.0', 'Ada');
 
 -- --------------------------------------------------------
 
@@ -68,7 +71,13 @@ CREATE TABLE `karyawan` (
 --
 
 INSERT INTO `karyawan` (`idkaryawan`, `nama`, `alamat`, `jenis_kelamin`, `no_ktp`, `no_hp`) VALUES
-(1, 'Dika Wardani', 'Kp, Bojong Sompok', 'Pria', '2084284', '089643158780');
+(1, 'Dika Wardani', 'Kp, Bojong Sompok', 'Pria', '2084284', '089643158780'),
+(3, 'Ismail', 'Bojong Gede', 'Pria', '1323434343433434', '089676569897'),
+(4, 'Wahyudin', 'Blok M, Jakarta Selatan', 'Pria', '254346467588768', '08976646665'),
+(5, 'Aksani', 'Bogor', 'Pria', '2454534646', '087864468787'),
+(6, 'Agus', 'Ps. Minggu', 'Pria', '8475847583545', '089864667777'),
+(7, 'Eka Dea', 'Bekasi', 'Wanita', '2745834758', '0897646464664'),
+(8, 'Jeko', 'Bojong Gede', 'Pria', '84379738535', '08987577646464');
 
 -- --------------------------------------------------------
 
@@ -86,9 +95,9 @@ CREATE TABLE `merk` (
 --
 
 INSERT INTO `merk` (`idmerk`, `nama`) VALUES
-(1, 'Isuzu'),
-(2, 'Daihatsu'),
-(3, 'Toshiba');
+(1, 'Mitshubisi'),
+(2, 'Isuzu'),
+(3, 'Toyota');
 
 -- --------------------------------------------------------
 
@@ -110,7 +119,10 @@ CREATE TABLE `pelanggan` (
 --
 
 INSERT INTO `pelanggan` (`idpelanggan`, `nama`, `alamat`, `jenis_kelamin`, `no_ktp`, `no_hp`) VALUES
-(1, 'asdasd', 'dsdfdsf', 'Pria', '23', 'asd');
+(1, 'Asep', 'dhkfjhskjdfdf', 'Pria', '1234', '782374928745'),
+(3, 'Hasanudin', 'Bogor', 'Pria', '94759848735', '087867663453'),
+(4, 'Ismail', 'Depok', 'Pria', '87954938589495', '089783874756'),
+(5, 'Putri', 'Jakarta Selatan', 'Wanita', '8934757395749', '085878980987');
 
 -- --------------------------------------------------------
 
@@ -125,6 +137,13 @@ CREATE TABLE `pengembalian` (
   `tgl_transaki` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `overtime` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `pengembalian`
+--
+
+INSERT INTO `pengembalian` (`idpengembalian`, `idsewa`, `idkaryawan`, `tgl_transaki`, `overtime`) VALUES
+(1, 1, 1, '2018-07-06 02:56:22', 0);
 
 -- --------------------------------------------------------
 
@@ -147,9 +166,8 @@ CREATE TABLE `sewa` (
 --
 
 INSERT INTO `sewa` (`idsewa`, `tgl_transaki`, `idcar`, `idpelanggan`, `idkaryawan`, `lama_sewa`, `total_tagihan`) VALUES
-(1, '2018-05-18 10:44:20', 4, 1, 1, 23, 2300000),
-(2, '2018-05-18 20:55:07', 4, 1, 1, 2, 200000),
-(3, '2018-05-18 20:56:30', 4, 1, 1, 2, 200000);
+(1, '2018-07-06 02:53:27', 2, 1, 1, 1, 43345),
+(2, '2018-07-06 03:05:44', 2, 1, 1, 2, 86690);
 
 -- --------------------------------------------------------
 
@@ -179,7 +197,8 @@ INSERT INTO `user` (`iduser`, `username`, `password`, `idkaryawan`) VALUES
 -- Indexes for table `car`
 --
 ALTER TABLE `car`
-  ADD PRIMARY KEY (`idcar`);
+  ADD PRIMARY KEY (`idcar`),
+  ADD KEY `fk_car_merk_idx` (`idmerk`);
 
 --
 -- Indexes for table `karyawan`
@@ -203,19 +222,25 @@ ALTER TABLE `pelanggan`
 -- Indexes for table `pengembalian`
 --
 ALTER TABLE `pengembalian`
-  ADD PRIMARY KEY (`idpengembalian`);
+  ADD PRIMARY KEY (`idpengembalian`),
+  ADD KEY `fk_transaksi_pengembalian_karyawan1_idx` (`idkaryawan`),
+  ADD KEY `fk_transaksi_pengembalian_transaksi_sewa1_idx` (`idsewa`);
 
 --
 -- Indexes for table `sewa`
 --
 ALTER TABLE `sewa`
-  ADD PRIMARY KEY (`idsewa`);
+  ADD PRIMARY KEY (`idsewa`),
+  ADD KEY `fk_transaksi_car1_idx` (`idcar`),
+  ADD KEY `fk_transaksi_sewa_karyawan1_idx` (`idkaryawan`),
+  ADD KEY `fk_transaksi_sewa_pelanggan1_idx` (`idpelanggan`);
 
 --
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`iduser`);
+  ADD PRIMARY KEY (`iduser`),
+  ADD KEY `fk_user_karyawan1_idx` (`idkaryawan`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -225,12 +250,12 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `car`
 --
 ALTER TABLE `car`
-  MODIFY `idcar` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `idcar` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `karyawan`
 --
 ALTER TABLE `karyawan`
-  MODIFY `idkaryawan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `idkaryawan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `merk`
 --
@@ -240,22 +265,53 @@ ALTER TABLE `merk`
 -- AUTO_INCREMENT for table `pelanggan`
 --
 ALTER TABLE `pelanggan`
-  MODIFY `idpelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `idpelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `pengembalian`
 --
 ALTER TABLE `pengembalian`
-  MODIFY `idpengembalian` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idpengembalian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `sewa`
 --
 ALTER TABLE `sewa`
-  MODIFY `idsewa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `idsewa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;COMMIT;
+  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `car`
+--
+ALTER TABLE `car`
+  ADD CONSTRAINT `fk_car_merk` FOREIGN KEY (`idmerk`) REFERENCES `merk` (`idmerk`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `pengembalian`
+--
+ALTER TABLE `pengembalian`
+  ADD CONSTRAINT `fk_transaksi_pengembalian_karyawan1` FOREIGN KEY (`idkaryawan`) REFERENCES `karyawan` (`idkaryawan`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_transaksi_pengembalian_transaksi_sewa1` FOREIGN KEY (`idsewa`) REFERENCES `sewa` (`idsewa`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `sewa`
+--
+ALTER TABLE `sewa`
+  ADD CONSTRAINT `fk_transaksi_car1` FOREIGN KEY (`idcar`) REFERENCES `car` (`idcar`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_transaksi_sewa_karyawan1` FOREIGN KEY (`idkaryawan`) REFERENCES `karyawan` (`idkaryawan`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_transaksi_sewa_pelanggan1` FOREIGN KEY (`idpelanggan`) REFERENCES `pelanggan` (`idpelanggan`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `user`
+--
+ALTER TABLE `user`
+  ADD CONSTRAINT `fk_user_karyawan1` FOREIGN KEY (`idkaryawan`) REFERENCES `karyawan` (`idkaryawan`) ON DELETE CASCADE;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

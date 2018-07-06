@@ -65,8 +65,6 @@ public final class UpdateKaryawanViewImpl extends Dialog implements UpdateKaryaw
         saveButton = new com.dika.view.component.custom.SaveButton();
         cancelButton = new com.dika.view.component.custom.CancelButton();
         clearButton = new com.dika.view.component.custom.ClearButton();
-        idKaryawanField = new com.dika.view.component.custom.UnEditableTextField();
-        com.dika.view.component.Label label7 = new com.dika.view.component.Label();
 
         headerLabel1.setText("Update Data Karyawan");
 
@@ -85,8 +83,6 @@ public final class UpdateKaryawanViewImpl extends Dialog implements UpdateKaryaw
         alamatField.setColumns(20);
         alamatField.setRows(5);
         jScrollPane1.setViewportView(alamatField);
-
-        label7.setText("ID Karyawan");
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -111,16 +107,14 @@ public final class UpdateKaryawanViewImpl extends Dialog implements UpdateKaryaw
                             .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(label3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 396, Short.MAX_VALUE)
                             .addComponent(noKtpField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(noHpField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jenkelCmb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(namaField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(idKaryawanField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(namaField, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addGap(10, 10, 10))
         );
         panel1Layout.setVerticalGroup(
@@ -129,10 +123,6 @@ public final class UpdateKaryawanViewImpl extends Dialog implements UpdateKaryaw
                 .addContainerGap()
                 .addComponent(headerLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(idKaryawanField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(namaField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -184,18 +174,12 @@ public final class UpdateKaryawanViewImpl extends Dialog implements UpdateKaryaw
     private com.dika.view.component.TextArea alamatField;
     private com.dika.view.component.custom.CancelButton cancelButton;
     private com.dika.view.component.custom.ClearButton clearButton;
-    private com.dika.view.component.custom.UnEditableTextField idKaryawanField;
     private com.dika.view.component.ComboBox<String> jenkelCmb;
     private com.dika.view.component.custom.RequireTextField namaField;
     private com.dika.view.component.custom.RequireTextField noHpField;
     private com.dika.view.component.custom.RequireTextField noKtpField;
     private com.dika.view.component.custom.SaveButton saveButton;
     // End of variables declaration//GEN-END:variables
-    
-    @Override
-    public TextField getIdKaryawanField() {
-        return idKaryawanField;
-    }
     
     @Override
     public TextField getNamaField() {

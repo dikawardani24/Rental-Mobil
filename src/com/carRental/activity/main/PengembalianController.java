@@ -34,13 +34,17 @@ import com.carRental.activity.tableModel.PengembalianTableModel;
 import com.dika.Logger;
 import com.dika.activity.Activity;
 import com.dika.util.CalendarHelper;
+import com.dika.util.NumberHelper;
 import com.dika.view.component.Button;
+import com.dika.view.component.FormattedTextField;
 import com.dika.view.component.Panel;
 import com.dika.view.component.Table;
 import com.dika.view.component.TextField;
 import com.dika.view.custom.PagingTableView;
 import com.dika.view.custom.PagingTableViewAction;
 import com.dika.view.custom.PagingTableViewService;
+import java.awt.event.FocusAdapter;
+import java.awt.event.FocusEvent;
 import kotlin.Unit;
 import org.jetbrains.annotations.NotNull;
 
@@ -97,7 +101,7 @@ public class PengembalianController extends MainController
         if (!validateIdSewa()) {
             return;
         }
-        
+
         int idSewa = Integer.parseInt(getIdSewaField().getText());
         sewa = execute(new SewaServiceImpl(), sewaService -> {
             try {
@@ -108,7 +112,7 @@ public class PengembalianController extends MainController
         });
 
         if (sewa == null) {
-            showFailed("Tidak Menemukan Transaksi Sewa Dengan ID : "+idSewa);
+            showFailed("Tidak Menemukan Transaksi Sewa Dengan ID : " + idSewa);
             return;
         }
 
@@ -241,8 +245,98 @@ public class PengembalianController extends MainController
 
         getSaveButton().addActionListener(e -> save());
 
+        getPaidField().addFocusListener(new FocusAdapter() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                super.focusGained(e);
+                CountKembalianThread thread = new CountKembalianThread();
+                thread.start();
+            }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                super.focusLost(e);
+                double dibayar = NumberHelper.INSTANCE.toDouble(getPaidField().getText());
+                getPaidField().setValue(dibayar);
+            }
+        });
+
+        getDetailTagihanContainer().getCalculateButton().addActionListener(evt -> {
+            if (getPaidField().isEmpty()) {
+                showEmptyNotifOn(getPaidField());
+                return;
+            }
+
+            double totalTagihan = NumberHelper.INSTANCE.toDouble(getTagihanField().getValue());
+
+            double dibayar = NumberHelper.INSTANCE.toDouble(getPaidField().getValue());
+            if (dibayar < totalTagihan) {
+                showNotifOn(getPaidField(), "Jumlah yang dibayar masih kurang");
+                return;
+            }
+
+            countKembalian(dibayar);
+        });
+
         initPagingTable();
     }
+    
+    private class CountKembalianThread extends CountThread {
+
+        private CountKembalianThread() {
+            super(getPaidField());
+        }
+
+        @Override
+        protected void count() {
+            double dibayar = NumberHelper.INSTANCE.toDouble(getPaidField().getText());
+            countKembalian(dibayar);
+        }
+    }
+
+    private void countKembalian(double dibayar) {
+        if (getTagihanField().isEmpty()) {
+            return;
+        }
+
+        double totalTagihan = NumberHelper.INSTANCE.toDouble(getTagihanField().getValue());
+        if (dibayar < totalTagihan) {
+            getKembalianField().setValue(0);
+            return;
+        }
+
+        double kembalian = dibayar - totalTagihan;
+        getKembalianField().setValue(kembalian);
+    }
+
+    private abstract class CountThread extends Thread {
+
+        String lastEdit;
+
+        private final FormattedTextField formattedTextField;
+
+        private CountThread(FormattedTextField formattedTextField) {
+            this.lastEdit = formattedTextField.getValue().toString();
+            this.formattedTextField = formattedTextField;
+            this.formattedTextField.setText(lastEdit);
+        }
+
+        @Override
+        public void run() {
+            formattedTextField.setText(formattedTextField.getValue().toString());
+            while (formattedTextField.hasFocus()) {
+                if (lastEdit.equals(formattedTextField.getText())) {
+                    continue;
+                }
+
+                lastEdit = formattedTextField.getText();
+                count();
+            }
+        }
+
+        protected abstract void count();
+    }
+
 
     private void initPagingTable() {
         Table table = getPagingTableView().getTable();

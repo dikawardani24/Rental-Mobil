@@ -33,7 +33,7 @@ public final class UpdateCarActivity extends InputActivity<UpdateCarView> implem
             getNoRangkaField().setText(car.getNoRangka());
             getNoMesinField().setText(car.getNoMesin());
             getHargaSewaField().setValue(car.getHargaSewa());
-            getMerkCmbBox().setSelectedItem(car.getMerk());
+            getMerkCmbBox().setSelectedItem(car.getMerk().getNama());
         });
     }
 
@@ -41,12 +41,13 @@ public final class UpdateCarActivity extends InputActivity<UpdateCarView> implem
         merks = execute(new MerkServiceImpl(), MerkServiceImpl::findAll);
 
         if (merks != null) {
-            if (!merks.isEmpty()) {
-                merks.clear();
-                getMerkCmbBox().removeAllItems();
-            }
+            getMerkCmbBox().removeAllItems();
 
-            merks.forEach(merk -> getMerkCmbBox().addItem(merk.getNama()));
+            merks.forEach(merk -> {
+                getMerkCmbBox().addItem(merk.getNama());
+                System.err.println(merk.getNama());
+            });
+            System.err.println(merks.size());
         }
     }
 

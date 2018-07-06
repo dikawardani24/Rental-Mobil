@@ -37,7 +37,6 @@ public final class UpdateKaryawanActivity extends InputActivity<UpdateKaryawanVi
     public void setKaryawan(Karyawan karyawan) {
         SwingUtilities.invokeLater(() -> {
             this.karyawan = karyawan;
-            getIdKaryawanField().setText(String.valueOf(karyawan.getId()));
             getNamaField().setText(karyawan.getNama());
             getJenkelComboBox().setSelectedItem(karyawan.getJenisKelamin());
             getNoTelpField().setText(karyawan.getNoHp());
@@ -102,11 +101,6 @@ public final class UpdateKaryawanActivity extends InputActivity<UpdateKaryawanVi
         getClearButton().addActionListener(evt -> clear());
 
         getCancelButton().addActionListener(evt -> stop());
-    }
-
-    @Override
-    public TextField getIdKaryawanField() {
-        return updateKaryawanView.getIdKaryawanField();
     }
 
     @Override

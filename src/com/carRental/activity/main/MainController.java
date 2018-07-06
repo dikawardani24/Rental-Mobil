@@ -54,11 +54,13 @@ public class MainController {
         return helper.today();
     }
 
-    protected   <R, S extends DatabaseService<?, ?>> R execute(S dbService, Function1<? super S, ? extends R> block) {
+    protected   <R, S extends DatabaseService<?, ?>> R execute(S dbService, 
+            Function1<? super S, ? extends R> block) {
         return mainActivity.execute(this, dbService, block);
     }
 
-    protected   <R, S extends DatabaseService<?, ?>> R execute(S dbService, String onSucceed, String onFailed,Function1<? super S, ? extends R> block) {
+    protected   <R, S extends DatabaseService<?, ?>> R execute(S dbService, String onSucceed, 
+            String onFailed,Function1<? super S, ? extends R> block) {
         return mainActivity.execute(this, dbService, onSucceed, onFailed, block);
     }
 

@@ -40,7 +40,8 @@ import java.util.List;
  *
  * @author dika
  */
-public final class PelangganManagerActivity extends Activity<PelangganManagerView> implements PelangganManagerView, PagingTableViewService {
+public final class PelangganManagerActivity extends Activity<PelangganManagerView> 
+        implements PelangganManagerView, PagingTableViewService {
     private final PelangganManagerView view = new PelangganManagerViewImpl();
     private PelangganTableModel tableModel;
     private PagingTableViewAction pagingTableViewAction;
