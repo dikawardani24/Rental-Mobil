@@ -23,6 +23,7 @@ import com.dika.util.CalendarHelper;
 import com.dika.util.NumberHelper;
 import net.sf.dynamicreports.report.builder.component.ComponentBuilder;
 import net.sf.dynamicreports.report.builder.component.HorizontalListBuilder;
+import net.sf.dynamicreports.report.constant.PageType;
 import org.jetbrains.annotations.NotNull;
 
 import static net.sf.dynamicreports.report.builder.DynamicReports.cmp;
@@ -34,6 +35,12 @@ public class Kwitansi extends NotaReport<Sewa> {
 
     public Kwitansi(Sewa sewa) {
         super("Kwitansi Sewa", sewa);
+    }
+
+    @Override
+    public void build() {
+        setPageType(PageType.A4);
+        super.build();
     }
 
     @NotNull

@@ -40,7 +40,7 @@ public final class ChangeUsernameActivity extends InputActivity<ChangeUsernameVi
             try {
                 user.setUsername(getUsernameNewField().getText());
                 userService.update(user);
-                showFailed("Username berhasil diperbaharui");
+                showSucceed("Username berhasil diperbaharui");
             } catch (Exception e) {
                 user.setUsername(oldUsername);
                 showFailed("Username berhasil diperbaharui");
